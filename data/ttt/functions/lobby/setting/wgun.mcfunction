@@ -1,0 +1,15 @@
+scoreboard players add @s st_wgun 1
+execute unless score @s st_wgun matches 1..25 run scoreboard players set @s st_wgun 1
+execute if score @s st_wgun matches 2 run scoreboard players set @s st_wgun 3
+execute if score @s st_wgun matches 4 run scoreboard players set @s st_wgun 5
+execute if score @s st_wgun matches 6..9 run scoreboard players set @s st_wgun 10
+execute if score @s st_wgun matches 11.. run scoreboard players set @s st_wgun 25
+
+setblock -52 31 -17 air
+execute if score @s st_wgun matches 1 run setblock -52 31 -17 oak_wall_sign[facing=north]{Color:"green",GlowingText:1b,Text1:'{"text":"Water Gun","color":"white","bold":true}',Text2:'{"text":"1 Shot","color":"green"}',Text4:'{"text":"Right - Click","color":"green","italic":true,"clickEvent":{"action":"run_command","value":"/execute at @s as @e[type=marker,tag=sv] run function ttt:lobby/setting/wgun_try"}}'} replace
+execute if score @s st_wgun matches 3 run setblock -52 31 -17 oak_wall_sign[facing=north]{Color:"green",GlowingText:1b,Text1:'{"text":"Water Gun","color":"white","bold":true}',Text2:'{"text":"3 Shots","color":"green"}',Text4:'{"text":"Right - Click","color":"green","italic":true,"clickEvent":{"action":"run_command","value":"/execute at @s as @e[type=marker,tag=sv] run function ttt:lobby/setting/wgun_try"}}'} replace
+execute if score @s st_wgun matches 5 run setblock -52 31 -17 oak_wall_sign[facing=north]{Color:"green",GlowingText:1b,Text1:'{"text":"Water Gun","color":"white","bold":true}',Text2:'{"text":"5 Shots","color":"green"}',Text4:'{"text":"Right - Click","color":"green","italic":true,"clickEvent":{"action":"run_command","value":"/execute at @s as @e[type=marker,tag=sv] run function ttt:lobby/setting/wgun_try"}}'} replace
+execute if score @s st_wgun matches 10 run setblock -52 31 -17 oak_wall_sign[facing=north]{Color:"green",GlowingText:1b,Text1:'{"text":"Water Gun","color":"white","bold":true}',Text2:'{"text":"10 Shots","color":"green"}',Text4:'{"text":"Right - Click","color":"green","italic":true,"clickEvent":{"action":"run_command","value":"/execute at @s as @e[type=marker,tag=sv] run function ttt:lobby/setting/wgun_try"}}'} replace
+execute if score @s st_wgun matches 25 run setblock -52 31 -17 oak_wall_sign[facing=north]{Color:"green",GlowingText:1b,Text1:'{"text":"Water Gun","color":"white","bold":true}',Text2:'{"text":"25 Shots","color":"green"}',Text4:'{"text":"Right - Click","color":"green","italic":true,"clickEvent":{"action":"run_command","value":"/execute at @s as @e[type=marker,tag=sv] run function ttt:lobby/setting/wgun_try"}}'} replace
+
+setblock -52 30 -17 oak_wall_sign[facing=north]{Color:"green",GlowingText:0b,Text2:'{"text":"Right-Click for","color":"green","italic":true,"clickEvent":{"action":"run_command","value":"/function ttt:lobby/setting/wgun_info"}}',Text3:'{"text":"more info","color":"green","italic":true}'} replace

@@ -1,0 +1,2 @@
+scoreboard players enable @a[team=p] Game_Choice
+tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"Wait! ","color":"gold"},{"color":"green","text":"[Skip]","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":"Click to skip the cutscene!","color":"green","italic":false}]},"clickEvent":{"action":"run_command","value":"/trigger Game_Choice set 1"}}]

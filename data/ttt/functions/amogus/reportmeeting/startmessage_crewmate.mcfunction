@@ -1,0 +1,9 @@
+execute if entity @s[tag=orange] as @e[type=armor_stand,tag=reported,limit=1] run function ttt:amogus/color/orange_reportmessage
+execute if entity @s[tag=yellow] as @e[type=armor_stand,tag=reported,limit=1] run function ttt:amogus/color/yellow_reportmessage
+execute if entity @s[tag=lime] as @e[type=armor_stand,tag=reported,limit=1] run function ttt:amogus/color/lime_reportmessage
+execute if entity @s[tag=green] as @e[type=armor_stand,tag=reported,limit=1] run function ttt:amogus/color/green_reportmessage
+execute if entity @s[tag=cyan] as @e[type=armor_stand,tag=reported,limit=1] run function ttt:amogus/color/cyan_reportmessage
+execute if entity @s[tag=pink] as @e[type=armor_stand,tag=reported,limit=1] run function ttt:amogus/color/pink_reportmessage
+execute if entity @s[tag=purple] as @e[type=armor_stand,tag=reported,limit=1] run function ttt:amogus/color/purple_reportmessage
+execute if entity @s[tag=white] as @e[type=armor_stand,tag=reported,limit=1] run function ttt:amogus/color/white_reportmessage
+execute if entity @s[tag=black] as @e[type=armor_stand,tag=reported,limit=1] run function ttt:amogus/color/black_reportmessage

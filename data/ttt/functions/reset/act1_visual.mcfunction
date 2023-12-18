@@ -1,0 +1,24 @@
+# act = 1
+# actpart = 1..2
+
+fill -10 30 43 -8 33 49 stone
+summon villager -7 30.0 63 {NoGravity:1b,Silent:0b,Invulnerable:0b,CustomNameVisible:0b,PersistenceRequired:1b,Health:1f,Rotation:[-155F,0F],Tags:["villagekeeper1","villagekeeper","forkill","globalhide","namednpc","villshop","wguntarget"],CustomName:'{"text":"Guardsman","color":"yellow","italic":false}',Attributes:[{Name:generic.max_health,Base:1},{Name:generic.movement_speed,Base:0}],VillagerData:{level:5,profession:"minecraft:nitwit",type:"minecraft:savanna"},Offers:{Recipes:[{rewardExp:0b,maxUses:1,buy:{id:"minecraft:oak_log",Count:6b},sell:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Village Entrance Allowance","color":"yellow","italic":false}',Lore:['[{"text":"Allows you to enter ","color":"gray","italic":false},{"text":"The Village","color":"yellow"},{"text":"."}]']},CustomModelData:3,key:1b}}}]}}
+summon armor_stand 40.9 39.875 32 {NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,PersistenceRequired:1b,Tags:["forkill","toadbody"],Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f],Head:[0f,0f,0f]},DisabledSlots:4144959,HandItems:[{id:"minecraft:chain",Count:1b,tag:{CustomModelData:71}},{}]}
+summon armor_stand 40.9 39.875 32 {NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,PersistenceRequired:1b,Tags:["forkill","namednpc","toadhead"],CustomName:'{"text":"Toad","color":"red","italic":false}',CustomNameVisible:0b,Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f],Head:[0f,0f,0f]},DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:chain",Count:1b,tag:{CustomModelData:72}}]}
+summon armor_stand 21.5 40 30.5 {Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f]},NoGravity:1b,Silent:1b,Invulnerable:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["forkill","goomba","wguntarget"],DisabledSlots:4144959,Rotation:[-45F,0F],HandItems:[{id:"minecraft:chain",Count:1b,tag:{CustomModelData:73}},{}]}
+summon armor_stand 20 40 32 {Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f]},NoGravity:1b,Silent:1b,Invulnerable:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["forkill","goomba","wguntarget"],DisabledSlots:4144959,Rotation:[-45F,0F],HandItems:[{id:"minecraft:chain",Count:1b,tag:{CustomModelData:73}},{}]}
+summon armor_stand 18.5 40 33.5 {Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f]},NoGravity:1b,Silent:1b,Invulnerable:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["forkill","goomba","wguntarget"],DisabledSlots:4144959,Rotation:[-45F,0F],HandItems:[{id:"minecraft:chain",Count:1b,tag:{CustomModelData:73}},{}]}
+data merge block 40 40 35 {Items:[{Slot:13b,id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Flower Cutters","color":"green","italic":false}',Lore:['{"text":"Right-click a plant while sneaking","color":"gray","italic":false}','{"text":"on top of it to pick it from the ground.","color":"gray","italic":false}']},CustomModelData:15,shears:1b}}]}
+
+execute if score @s fnf_lavarock matches 0 unless blocks 17 22 60 22 28 65 20 40 47 all run clone 17 22 60 22 28 65 20 40 47
+execute if score @s fnf_lavarock matches 0 run fill 24 27 47 25 31 48 air
+execute if score @s fnf_lavarock matches 0 run fill 24 26 47 25 26 48 lava
+
+execute if score @s fnf_lavarock matches 1 run clone 21 24 60 22 27 61 24 28 47
+execute if score @s fnf_lavarock matches 1 run fill 24 26 47 25 28 48 stone replace #ttt:passable
+execute if score @s fnf_lavarock matches 1 run fill 24 27 47 24 28 47 andesite
+execute if score @s fnf_lavarock matches 1 run fill 20 40 47 25 46 52 air replace #ttt:torchwood
+execute if score @s fnf_lavarock matches 1 run fill 24 40 47 25 44 48 air
+execute if score @s fnf_lavarock matches 1 run scoreboard players set @s fnf_lavarock 2
+
+execute if score @s fnf_haswgun matches 0 run summon armor_stand -4.0 28.45 89.55 {NoGravity:1b,Silent:1b,Invulnerable:1b,ShowArms:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["forkill","wgunholder","namednpc"],DisabledSlots:4144703,HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Empty Water Gun","color":"yellow","italic":false}',Lore:['{"text":"Right-click water to pour","color":"gray","italic":false}','{"text":"some inside of the gun.","color":"gray","italic":false}','{"text":" "}','{"text":"Useful for cleaning mold off of wood","color":"gray","italic":false}','{"text":"or shooting people in the eyes.","color":"gray","italic":false}','{"text":" "}','{"text":"Finders Keepers:","color":"red","italic":false}','{"text":"You keep this item and its","color":"gray","italic":false}','{"text":"state after dying!","color":"gray","italic":false}']},CustomModelData:53,wgun:1b,filled:0b}},{}],Rotation:[180F,0F],Pose:{RightArm:[270f,110f,90f]},CustomName:'{"text":"Right-Click to pickup!","color":"green","italic":false}',CustomNameVisible:0b}

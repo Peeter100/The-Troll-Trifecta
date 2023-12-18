@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Harvard Where You At",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Get as far in math as possible (this is not the way to beat the task)",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:apple"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "ttt:advancements/math"
+    },
+    "parent": "ttt:music"
+}

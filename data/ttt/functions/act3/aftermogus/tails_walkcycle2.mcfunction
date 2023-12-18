@@ -1,0 +1,3 @@
+#execute at @e[type=armor_stand,tag=tailsbody,limit=1] run playsound block.netherrack.step neutral @a ~ ~ ~ 0.15
+execute if score @e[type=marker,tag=sv,limit=1] dialogueseq matches 1 run item replace entity @e[type=armor_stand,tag=tailsarms,limit=1] armor.head with gold_ingot{CustomModelData:96}
+execute if score @e[type=marker,tag=sv,limit=1] dialogueseq matches 1 run schedule function ttt:act3/aftermogus/tails_walkidle2 2t replace

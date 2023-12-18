@@ -1,0 +1,3 @@
+execute if score @s actunlocked matches ..3 unless entity @s[tag=hasdiamonds,scores={d1=1,d2=1,d3=1,d4=1,d5=1,d6=1}] run tellraw @p [{"text":"Beat the map or find all of the hidden ","color":"red"},{"text":"diamond ores","color":"aqua"},{"text":" to unlock!"}]
+execute if score @s actunlocked matches 4.. unless entity @s[tag=hasdiamonds,scores={d1=1,d2=1,d3=1,d4=1,d5=1,d6=1}] as @p run function ttt:lobby/interact_extras2
+execute if entity @s[tag=hasdiamonds,scores={d1=1,d2=1,d3=1,d4=1,d5=1,d6=1}] as @p run function ttt:lobby/interact_extras2

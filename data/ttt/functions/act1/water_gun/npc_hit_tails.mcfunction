@@ -1,0 +1,2 @@
+execute if entity @e[type=marker,tag=sv,scores={dialogueseq=..1,fnf_seentails=..1}] run function ttt:act1/water_gun/npc_hit_tails_pretalk
+execute if score @s rc matches 1.. run function ttt:act1/water_gun/npc_hit_tails_aftertalk

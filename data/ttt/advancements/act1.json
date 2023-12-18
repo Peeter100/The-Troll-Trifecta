@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Too Easy",
+            "color": "green"
+        },
+        "description": {
+            "text": "Complete Act 1",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:grass_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "ttt:advancements/act1"
+    },
+    "parent": "ttt:root"
+}

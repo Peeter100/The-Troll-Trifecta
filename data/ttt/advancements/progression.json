@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Progression Achievements",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:target"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:impossible"
+        },
+        "2": {
+            "trigger": "minecraft:impossible"
+        },
+        "3": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "ttt:act3"
+}

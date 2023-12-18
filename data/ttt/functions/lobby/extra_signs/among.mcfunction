@@ -1,0 +1,1 @@
+tellraw @s [{"text":"Name: ","color":"gray"},{"text":"Red Crewmate","color":"red"},{"text":"\nOrigin: "},{"text":"Among Us","color":"green"},{"text":"\nOriginal skin download: "},{"text":"I made it","color":"green"}]

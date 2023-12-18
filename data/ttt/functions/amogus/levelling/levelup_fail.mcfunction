@@ -1,0 +1,5 @@
+execute if score @s am_lvl_uniquereq matches ..0 run tellraw @a [{"text":"Progress to level ","color":"#FF9B9B"},{"score":{"name":"@s","objective":"am_level"},"color":"yellow"},{"text":":\n- "},{"score":{"name":"@s","objective":"am_lvl_xp"},"color":"#FF0000"},{"text":" IXP/"},{"score":{"name":"@s","objective":"am_lvl_xpreq"},"color":"#FF0000"},{"text":" IXP"}]
+execute if score @s am_lvl_uniquereq matches 1.. run tellraw @a [{"text":"Progress to level ","color":"#FF9B9B"},{"score":{"name":"@s","objective":"am_level"},"color":"yellow"},{"text":":\n- "},{"score":{"name":"@s","objective":"am_lvl_xp"},"color":"#FF0000"},{"text":" IXP/"},{"score":{"name":"@s","objective":"am_lvl_xpreq"},"color":"#FF0000"},{"text":" IXP\n- "},{"score":{"name":"@s","objective":"am_lvl_unique"},"color":"yellow"},{"text":"/"},{"score":{"name":"@s","objective":"am_lvl_uniquereq"},"color":"yellow"},{"text":" unique tasks completed"}]
+scoreboard players remove @s am_level 1
+
+execute at @r[tag=amplayer] run playsound entity.player.levelup master @a ~ ~ ~ 1000 0

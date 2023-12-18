@@ -1,0 +1,2 @@
+execute if entity @s[tag=jbimmune,nbt=!{Inventory:[{tag:{ring:1b}}]}] run playsound custom.act1.mario.jump master @s ~ ~ ~ 1000
+execute if entity @s[nbt={Inventory:[{tag:{ring:1b}}]}] run playsound custom.act3.sonic.jump master @s ~ ~ ~ 1000

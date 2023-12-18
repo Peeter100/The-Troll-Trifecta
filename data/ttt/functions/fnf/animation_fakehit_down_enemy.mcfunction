@@ -1,0 +1,4 @@
+scoreboard players set @s fnf_ad_p 16
+scoreboard players set @s fnf_dir_p 2
+data merge entity @e[tag=peeter1,limit=1] {HandItems:[{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:31}},{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:32}}],ArmorItems:[{},{},{},{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:33}}],Pose:{Head:[0f,0f,0f]}}
+data merge entity @e[tag=peeter2,limit=1] {HandItems:[{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:34}},{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:35}}],ArmorItems:[{},{},{},{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:36}}],Pose:{Head:[0f,0f,0f]}}

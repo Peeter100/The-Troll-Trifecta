@@ -1,0 +1,9 @@
+data merge entity @e[tag=amogalive,tag=!noanim,tag=orange,limit=1] {HandItems:[{id:"minecraft:chain",Count:1b,tag:{CustomModelData:113}},{}]}
+data merge entity @e[tag=amogalive,tag=!noanim,tag=yellow,limit=1] {HandItems:[{id:"minecraft:chain",Count:1b,tag:{CustomModelData:123}},{}]}
+data merge entity @e[tag=amogalive,tag=!noanim,tag=lime,limit=1] {HandItems:[{id:"minecraft:chain",Count:1b,tag:{CustomModelData:133}},{}]}
+data merge entity @e[tag=amogalive,tag=!noanim,tag=green,limit=1] {HandItems:[{id:"minecraft:chain",Count:1b,tag:{CustomModelData:143}},{}]}
+data merge entity @e[tag=amogalive,tag=!noanim,tag=cyan,limit=1] {HandItems:[{id:"minecraft:chain",Count:1b,tag:{CustomModelData:153}},{}]}
+data merge entity @e[tag=amogalive,tag=!noanim,tag=pink,limit=1] {HandItems:[{id:"minecraft:chain",Count:1b,tag:{CustomModelData:163}},{}]}
+data merge entity @e[tag=amogalive,tag=!noanim,tag=purple,limit=1] {HandItems:[{id:"minecraft:chain",Count:1b,tag:{CustomModelData:173}},{}]}
+data merge entity @e[tag=amogalive,tag=!noanim,tag=white,limit=1] {HandItems:[{id:"minecraft:chain",Count:1b,tag:{CustomModelData:183}},{}]}
+data merge entity @e[tag=amogalive,tag=!noanim,tag=black,limit=1] {HandItems:[{id:"minecraft:chain",Count:1b,tag:{CustomModelData:193}},{}]}

@@ -1,0 +1,109 @@
+{
+  "type": "chest",
+  "pools": [
+	{
+	  "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:cake",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{cake:1b}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Cake",
+                  "color": "yellow",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        }
+	  ]
+	},
+	{
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:3}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Number 5",
+                  "color": "yellow",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:6,smokeitem7:1b,smokecollection:1b}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Large Soda",
+                  "color": "yellow",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "name": "ttt:blocks/act3/food_base"
+        }
+      ]
+    }
+  ]
+}

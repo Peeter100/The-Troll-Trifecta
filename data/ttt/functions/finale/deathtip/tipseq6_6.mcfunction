@@ -1,0 +1,2 @@
+tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"He's healing faster than I can damage him!","color":"gold"}]
+schedule function ttt:finale/deathtip/tipseq6_7 46t replace

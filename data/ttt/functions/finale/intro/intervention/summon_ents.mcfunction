@@ -1,0 +1,12 @@
+summon armor_stand -95 15 21 {NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,PersistenceRequired:1b,Tags:["forkill","trollgefeet","trollge"],Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f],Head:[0f,0f,0f]},DisabledSlots:4144959,Rotation:[90F,0F],HandItems:[{id:"minecraft:chain",Count:1b,tag:{CustomModelData:11}},{id:"minecraft:chain",Count:1b,tag:{CustomModelData:12}}],ArmorItems:[{},{},{},{id:"minecraft:chain",Count:1b,tag:{CustomModelData:13}}],UUID:[I;2,0,0,0]}
+summon armor_stand -95 15 21 {NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,PersistenceRequired:1b,Tags:["forkill","trollgearms","trollge"],Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f],Head:[0f,0f,0f]},DisabledSlots:4144959,Rotation:[90F,0F],HandItems:[{id:"minecraft:chain",Count:1b,tag:{CustomModelData:14}},{id:"minecraft:chain",Count:1b,tag:{CustomModelData:15}}],ArmorItems:[{},{},{},{id:"minecraft:chain",Count:1b,tag:{CustomModelData:16}}],UUID:[I;3,0,0,0]}
+summon iron_golem -95 15 21 {NoGravity:1b,Silent:1b,Team:"enemy",PersistenceRequired:1b,NoAI:1b,Health:600f,PlayerCreated:0b,Tags:["forkill","trollgeai","shutthefuckup"],ActiveEffects:[{Id:14,Amplifier:0b,Duration:999999,ShowParticles:0b}],Attributes:[{Name:"minecraft:generic.max_health",Base:600}],Rotation:[90F,0F],ArmorItems:[{id:"minecraft:chainmail_boots",Count:1b,tag:{Unbreakable:1b,Enchantments:[{id:"minecraft:blast_protection",lvl:127s}]}},{id:"minecraft:chainmail_leggings",Count:1b,tag:{Unbreakable:1b,Enchantments:[{id:"minecraft:blast_protection",lvl:127s}]}},{id:"minecraft:chainmail_chestplate",Count:1b,tag:{Unbreakable:1b,Enchantments:[{id:"minecraft:blast_protection",lvl:127s}]}},{}],ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],UUID:[I;1,0,0,0]}
+
+execute store result entity @e[type=iron_golem,tag=trollgeai,limit=1] Attributes[{Name:"minecraft:generic.max_health"}].Base double 1 run scoreboard players get @s f3_healthmax
+execute store result entity @e[type=iron_golem,tag=trollgeai,limit=1] Health float 1 run scoreboard players get @s f3_healthmax
+
+execute store result bossbar trollgebar value run scoreboard players get @s f3_healthmax
+
+summon armor_stand -97 15 24 {NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,PersistenceRequired:1b,Tags:["forkill","p100boss"],Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f],Head:[-10f,0f,0f]},DisabledSlots:4144959,Rotation:[-155F,-10F],UUID:[I;4,0,0,0]}
+
+clone -125 -12 18 -119 -3 28 -87 14 16

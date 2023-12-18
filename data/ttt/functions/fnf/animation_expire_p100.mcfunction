@@ -1,0 +1,3 @@
+data merge entity @e[type=armor_stand,tag=peeter1,limit=1] {HandItems:[{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:91}},{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:92}}],ArmorItems:[{},{},{},{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:93}}],Pose:{Head:[0f,0f,0f]}}
+data merge entity @e[type=armor_stand,tag=peeter2,limit=1] {HandItems:[{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:94}},{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:95}}],ArmorItems:[{},{},{},{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:96}}],Pose:{Head:[0f,0f,0f]}}
+scoreboard players set @s fnf_dir_p 0

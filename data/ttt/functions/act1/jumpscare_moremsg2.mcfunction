@@ -1,0 +1,1 @@
+tellraw @a [{"text":"<","color":"dark_gray"},{"text":"TROLLGE","color":"#942626","font":"trollge"},{"text":"> "},{"text":"THERE IS NO ESCAPE","color":"#942626","font":"trollge"}]

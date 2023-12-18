@@ -1,0 +1,10 @@
+function ttt:finale/phase2/tick_player_ring_dash_sub
+function ttt:finale/phase2/tick_player_ring_dash_sub
+function ttt:finale/phase2/tick_player_ring_dash_sub
+function ttt:finale/phase2/tick_player_ring_dash_sub
+function ttt:finale/phase2/tick_player_ring_dash_sub
+function ttt:finale/phase2/tick_player_ring_dash_sub
+function ttt:finale/phase2/tick_player_ring_dash_sub
+function ttt:finale/phase2/tick_player_ring_dash_sub
+
+tag @s remove hitringboss

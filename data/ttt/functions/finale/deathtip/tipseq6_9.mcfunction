@@ -1,0 +1,2 @@
+tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"Wait, that's not how the ring worked before!","color":"gold"}]
+schedule function ttt:finale/deathtip/enable_death_text 45t replace

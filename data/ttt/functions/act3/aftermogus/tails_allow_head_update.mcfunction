@@ -1,0 +1,1 @@
+tag @e[type=armor_stand,tag=tailshead] remove donttp

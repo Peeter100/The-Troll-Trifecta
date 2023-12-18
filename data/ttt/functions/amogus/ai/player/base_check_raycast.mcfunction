@@ -1,0 +1,2 @@
+execute positioned ~ ~-1.75 ~ if entity @a[tag=amplayer,distance=..1] run tag @s add cansee
+execute unless entity @s[tag=cansee] positioned ^ ^ ^0.5 if block ~ ~ ~ #ttt:passable run function ttt:amogus/ai/player/base_check_raycast

@@ -1,0 +1,1 @@
+tellraw @s [{"text":"Choose what happens when you don't dodge the Fire Arrows in the Friday Night Funkin' section.","color":"green"}]

@@ -1,0 +1,1 @@
+summon blaze -118 11 21 {Team:"enemy",PersistenceRequired:1b,Health:20f,Tags:["forkill","bossmob"],Attributes:[{Name:generic.max_health,Base:20},{Name:generic.follow_range,Base:64},{Name:generic.movement_speed,Base:0.3},{Name:generic.attack_damage,Base:10},{Name:generic.attack_knockback,Base:0.2}]}

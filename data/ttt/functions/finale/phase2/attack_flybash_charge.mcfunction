@@ -1,0 +1,4 @@
+execute as 00000001-0000-0000-0000-000000000000 at @s anchored feet facing entity 00000004-0000-0000-0000-000000000000 feet run tp @s ^ ^ ^0.9 facing entity 00000004-0000-0000-0000-000000000000 feet
+execute as 00000004-0000-0000-0000-000000000000 at @s anchored feet facing entity 00000001-0000-0000-0000-000000000000 feet run tp @s ^ ^ ^0.9 facing entity 00000001-0000-0000-0000-000000000000 feet
+
+execute as 00000001-0000-0000-0000-000000000000 at 00000004-0000-0000-0000-000000000000 if entity @s[distance=..2] as @e[type=marker,tag=sv,limit=1] run function ttt:finale/phase2/attack_flybash_connect

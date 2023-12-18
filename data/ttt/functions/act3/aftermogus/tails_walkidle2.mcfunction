@@ -1,0 +1,2 @@
+execute if score @e[type=marker,tag=sv,limit=1] dialogueseq matches 1 run item replace entity @e[type=armor_stand,tag=tailsarms,limit=1] armor.head with gold_ingot{CustomModelData:51}
+execute if score @e[type=marker,tag=sv,limit=1] dialogueseq matches 1 if entity @e[type=armor_stand,tag=tailshead,tag=donttp] run schedule function ttt:act3/aftermogus/tails_walkcycle1 2t replace

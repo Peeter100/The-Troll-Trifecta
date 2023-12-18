@@ -1,0 +1,63 @@
+[
+	{
+	  "function": "minecraft:set_name",
+	  "name": {
+		 "text": "Empty Water Gun",
+		 "color": "yellow",
+		 "italic": false
+	  }
+	},
+	{
+	  "function": "minecraft:set_lore",
+	  "entity": "this",
+	  "lore": [
+		 {
+			"text": "Right-click water to pour",
+			"color": "gray",
+			"italic": false
+		 },
+		 {
+			"text": "some inside of the gun.",
+			"color": "gray",
+			"italic": false
+		 },
+		 {
+			"text": " "
+		 },
+		 {
+			"text": "Useful for cleaning mold off of wood",
+			"color": "gray",
+			"italic": false
+		 },
+		 {
+			"text": "or shooting people in the eyes.",
+			"color": "gray",
+			"italic": false
+		 },
+		 {
+			"text": " "
+		 },
+		 {
+			"text": "Finders Keepers:",
+			"color": "red",
+			"italic": false
+		 },
+		 {
+			"text": "You keep this item and its",
+			"color": "gray",
+			"italic": false
+		 },
+		 {
+			"text": "state after dying!",
+			"color": "gray",
+			"italic": false
+		 }
+	  ],
+	  "replace": true
+	},
+	{
+	  "function": "minecraft:set_nbt",
+	  "tag": "{CustomModelData:53,wgun:1b,filled:0b}"
+	}
+ ]
+ 

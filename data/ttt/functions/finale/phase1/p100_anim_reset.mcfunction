@@ -1,0 +1,2 @@
+execute if predicate ttt:50ch run tag 00000004-0000-0000-0000-000000000000 add faceplayer
+data merge entity 00000004-0000-0000-0000-000000000000 {HandItems:[{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:103}},{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:105}}]}

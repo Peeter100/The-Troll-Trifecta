@@ -1,0 +1,2 @@
+tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"I'm going to shoot at mobs far away,","color":"gold"}]
+schedule function ttt:finale/deathtip/tipseq1_3 32t replace

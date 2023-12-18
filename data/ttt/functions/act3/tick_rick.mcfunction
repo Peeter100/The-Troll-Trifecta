@@ -1,0 +1,32 @@
+execute unless entity @s[scores={am_seentrollge=1..,am_rickinteract=1..}] run execute as @e[tag=rickhead] at @s run tp @s ~ ~ ~ facing entity @p[team=p,scores={x=-39..-28,y=25..27,z=197..202}]
+execute if entity @s[scores={am_seentrollge=1..,am_rickinteract=1..}] run execute as @e[tag=rickhead] at @s run tp @s ~ ~ ~ facing entity @p[team=p,scores={x=-40..-35,y=19..21,z=195..198}]
+
+execute unless entity @s[scores={am_seentrollge=1..,am_rickinteract=1..,am_gametimer=140..165}] run scoreboard players add @s am_gametimer 1
+execute if entity @s[scores={am_seentrollge=1..,am_rickinteract=1..,am_gametimer=140..165}] if entity @a[team=p,scores={x=-40..-35,y=19..21,z=193..199}] run scoreboard players add @s am_gametimer 1
+
+execute if entity @s[scores={am_gametimer=10,am_rickinteract=..0}] run execute as @e[tag=rickhead] at @s run playsound custom.t2s.rick.offer_intro master @a ~ ~ ~ 1000
+execute if entity @s[scores={am_gametimer=10,am_rickinteract=..0}] run tellraw @a [{"text":"<","color":"white"},{"text":"Rick","color":"aqua"},{"text":"> "},{"text":"There you are!","color":"aqua"}]
+execute if entity @s[scores={am_gametimer=30,am_rickinteract=..0}] run tellraw @a [{"text":"<","color":"white"},{"text":"Rick","color":"aqua"},{"text":"> "},{"text":"I was looking for you everywhere.","color":"aqua"}]
+execute if entity @s[scores={am_gametimer=69,am_rickinteract=..0}] run tellraw @a [{"text":"<","color":"white"},{"text":"Rick","color":"aqua"},{"text":"> "},{"text":"Look, man.","color":"aqua"}]
+execute if entity @s[scores={am_gametimer=86,am_rickinteract=..0}] run tellraw @a [{"text":"<","color":"white"},{"text":"Rick","color":"aqua"},{"text":"> "},{"text":"As long as you don't complete this map,","color":"aqua"}]
+execute if entity @s[scores={am_gametimer=123,am_rickinteract=..0}] run tellraw @a [{"text":"<","color":"white"},{"text":"Rick","color":"aqua"},{"text":"> "},{"text":"I'm stuck in this stupid universe!","color":"aqua"}]
+execute if entity @s[scores={am_gametimer=163,am_rickinteract=..0}] run tellraw @a [{"text":"<","color":"white"},{"text":"Rick","color":"aqua"},{"text":"> "},{"text":"I've seen some troll guy get angry at a skeleton for letting you skip some parts of the map.","color":"aqua"}]
+execute if entity @s[scores={am_gametimer=239,am_rickinteract=..0}] run tellraw @a [{"text":"<","color":"white"},{"text":"Rick","color":"aqua"},{"text":"> "},{"text":"I'm not sure how powerful he actually is,","color":"aqua"}]
+execute if entity @s[scores={am_gametimer=285,am_rickinteract=..0}] run tellraw @a [{"text":"<","color":"white"},{"text":"Rick","color":"aqua"},{"text":"> "},{"text":"but I don't want to find out.","color":"aqua"}]
+execute if entity @s[scores={am_gametimer=306,am_rickinteract=..0}] run tellraw @a [{"text":"<","color":"white"},{"text":"Rick","color":"aqua"},{"text":"> "},{"text":"I'll help you as much as I can.","color":"aqua"}]
+execute if entity @s[scores={am_gametimer=344,am_rickinteract=..0}] run tellraw @a [{"text":"<","color":"white"},{"text":"Rick","color":"aqua"},{"text":"> "},{"text":"But don't expect me to die for you! ","color":"aqua"},{"color":"green","text":"[Accept]","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":"Click to accept Rick's offer!","color":"green","italic":false}]},"clickEvent":{"action":"run_command","value":"/trigger Game_Choice set 1"}}]
+execute if entity @s[scores={am_gametimer=344,am_rickinteract=..0}] run scoreboard players enable @a[team=p] Game_Choice
+
+execute if entity @s[scores={am_gametimer=10,am_rickinteract=1..,am_seentrollge=..0}] run execute as @e[tag=rickhead] at @s run playsound custom.t2s.rick.counter_offer_intro master @a ~ ~ ~ 1000
+execute if entity @s[scores={am_gametimer=10,am_rickinteract=1..,am_seentrollge=..0}] run tellraw @a [{"text":"<","color":"white"},{"text":"Rick","color":"aqua"},{"text":"> "},{"text":"What?","color":"aqua"}]
+execute if entity @s[scores={am_gametimer=20,am_rickinteract=1..,am_seentrollge=..0}] run tellraw @a [{"text":"<","color":"white"},{"text":"Rick","color":"aqua"},{"text":"> "},{"text":"Don't want my help anymore? ","color":"aqua"},{"color":"red","text":"[Cancel help]","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":"Click to reject Rick's offer!","color":"red","italic":false}]},"clickEvent":{"action":"run_command","value":"/trigger Game_Choice set 1"}}]
+execute if entity @s[scores={am_gametimer=20,am_rickinteract=1..,am_seentrollge=..0}] run scoreboard players enable @a[team=p] Game_Choice
+
+execute if entity @s[scores={am_gametimer=10,am_rickinteract=1..,am_seentrollge=1..}] run execute as @e[tag=rickhead] at @s run playsound custom.t2s.rick.balcony master @a ~ ~ ~ 1000
+execute if entity @s[scores={am_gametimer=10,am_rickinteract=1..,am_seentrollge=1..}] run tellraw @a [{"text":"<","color":"white"},{"text":"Rick","color":"aqua"},{"text":"> "},{"text":"You're getting on my nerves, man!","color":"aqua"}]
+execute if entity @s[scores={am_gametimer=48,am_rickinteract=1..,am_seentrollge=1..}] run tellraw @a [{"text":"<","color":"white"},{"text":"Rick","color":"aqua"},{"text":"> "},{"text":"I broke that stupid balcony so you can beat this map faster.","color":"aqua"}]
+execute if entity @s[scores={am_gametimer=121,am_rickinteract=1..,am_seentrollge=1..}] run tellraw @a [{"text":"<","color":"white"},{"text":"Rick","color":"aqua"},{"text":"> "},{"text":"Stop dying and use your brain!","color":"aqua"}]
+execute if entity @s[scores={am_gametimer=170,am_rickinteract=1..,am_seentrollge=1..}] run execute as @e[tag=rickhead] at @s run playsound custom.t2s.rick.counter_offer_intro master @a ~ ~ ~ 1000
+execute if entity @s[scores={am_gametimer=170,am_rickinteract=1..,am_seentrollge=1..}] run tellraw @a [{"text":"<","color":"white"},{"text":"Rick","color":"aqua"},{"text":"> "},{"text":"What?","color":"aqua"}]
+execute if entity @s[scores={am_gametimer=180,am_rickinteract=1..,am_seentrollge=1..}] run tellraw @a [{"text":"<","color":"white"},{"text":"Rick","color":"aqua"},{"text":"> "},{"text":"Don't want my help anymore? ","color":"aqua"},{"color":"red","text":"[Cancel help]","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":"Click to reject Rick's offer!","color":"red","italic":false}]},"clickEvent":{"action":"run_command","value":"/trigger Game_Choice set 1"}}]
+execute if entity @s[scores={am_gametimer=180,am_rickinteract=1..,am_seentrollge=1..}] run scoreboard players enable @a[team=p] Game_Choice

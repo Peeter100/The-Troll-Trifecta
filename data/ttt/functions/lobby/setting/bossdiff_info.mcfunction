@@ -1,0 +1,1 @@
+tellraw @s [{"text":"Choose the difficulty of Act 2 & 3 bosses.\nAct 2 - Sans' Challenge (when set to EASY):\n- permanent Speed V and Jump Boost III\n- permanent Strength II and Resistance II\nAct 3 - Trollge Finale (when set to EASY):\n- Trollge doesn't heal after dying","color":"green"}]

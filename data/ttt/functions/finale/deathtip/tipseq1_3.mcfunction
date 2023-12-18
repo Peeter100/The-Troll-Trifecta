@@ -1,0 +1,2 @@
+tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"so Trollge doesn't get a chance to use them!","color":"gold"}]
+schedule function ttt:finale/deathtip/enable_death_text 47t replace

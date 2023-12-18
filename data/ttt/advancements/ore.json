@@ -1,0 +1,43 @@
+{
+    "display": {
+        "title": {
+            "text": "Ore Scavenger",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Touch all 6 of the hidden diamond ores in the map (unlocks Cheats)",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:deepslate_diamond_ore"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "ore1": {
+            "trigger": "minecraft:impossible"
+        },
+        "ore2": {
+            "trigger": "minecraft:impossible"
+        },
+        "ore3": {
+            "trigger": "minecraft:impossible"
+        },
+        "ore4": {
+            "trigger": "minecraft:impossible"
+        },
+        "ore5": {
+            "trigger": "minecraft:impossible"
+        },
+        "ore6": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "ttt:advancements/ore"
+    },
+    "parent": "ttt:task"
+}

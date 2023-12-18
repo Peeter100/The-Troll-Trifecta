@@ -1,0 +1,2 @@
+execute if score @e[type=marker,tag=sv,limit=1] dialogueseq matches 1 run function ttt:finale/phase1/boss_hit
+execute if score @e[type=marker,tag=sv,limit=1] dialogueseq matches 3 run tellraw @s {"text":"Use the ring to damage Trollge!","color":"yellow"}

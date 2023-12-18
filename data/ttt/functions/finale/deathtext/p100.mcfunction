@@ -1,0 +1,2 @@
+tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"You're not giving up now, are you?","color":"gold"}]
+playsound custom.finale.deathtext.p100 master @a ~ ~ ~ 1000

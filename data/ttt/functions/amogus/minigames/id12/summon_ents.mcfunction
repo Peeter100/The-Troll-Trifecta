@@ -1,0 +1,19 @@
+# rick
+summon armor_stand -31 31 111 {Rotation:[-90F,0F],Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f]},NoGravity:1b,Invulnerable:1b,ShowArms:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["forkill","amogtask","npcbody"],DisabledSlots:4144959,HandItems:[{id:"minecraft:chain",Count:1b,tag:{CustomModelData:86}},{}]}
+summon armor_stand -31 31 111 {Rotation:[-90F,0F],Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f]},NoGravity:1b,Invulnerable:1b,ShowArms:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["forkill","amogtask","npchead","rickhead"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:chain",Count:1b,tag:{CustomModelData:87}}]}
+
+# walter
+summon armor_stand -40 31 117 {Rotation:[-118F,0F],Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f]},NoGravity:1b,Invulnerable:1b,ShowArms:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["forkill","amogtask","npcbody"],DisabledSlots:4144959,HandItems:[{id:"minecraft:chain",Count:1b,tag:{CustomModelData:79}},{}]}
+summon armor_stand -40 31 117 {Rotation:[-118F,0F],Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f]},NoGravity:1b,Invulnerable:1b,ShowArms:0b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["forkill","amogtask","npchead"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:chain",Count:1b,tag:{CustomModelData:80}}]}
+
+# sniper
+summon armor_stand -24 31 116 {NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,PersistenceRequired:1b,Tags:["forkill","amogtask","npcbody"],Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f]},DisabledSlots:4144959,HandItems:[{id:"minecraft:chain",Count:1b,tag:{CustomModelData:77}},{}],Rotation:[138F,0F]}
+summon armor_stand -24 31 116 {NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,PersistenceRequired:1b,Tags:["forkill","amogtask","npchead"],Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f]},DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:chain",Count:1b,tag:{CustomModelData:78}}],Rotation:[138F,0F]}
+
+# shadow
+summon armor_stand -23 31 131 {NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,PersistenceRequired:1b,Tags:["forkill","amogtask","npcbody"],Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f]},DisabledSlots:4144959,Rotation:[0F,0F],HandItems:[{id:"minecraft:gold_ingot",Count:1b,tag:{CustomModelData:12}},{id:"minecraft:gold_ingot",Count:1b,tag:{CustomModelData:17}}],ArmorItems:[{},{},{},{id:"minecraft:gold_ingot",Count:1b,tag:{CustomModelData:11}}]}
+summon armor_stand -23 31 131 {NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,PersistenceRequired:1b,Tags:["forkill","amogtask","npchead","shadowhead"],Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f]},DisabledSlots:4144959,Rotation:[0F,0F],HandItems:[{id:"minecraft:gold_ingot",Count:1b,tag:{CustomModelData:15}},{id:"minecraft:gold_ingot",Count:1b,tag:{CustomModelData:16}}],ArmorItems:[{},{},{},{id:"minecraft:gold_ingot",Count:1b,tag:{CustomModelData:14}}]}
+
+summon armor_stand -43 32.0 119 {Rotation:[-90F,0F],NoGravity:1b,Invulnerable:1b,Invisible:1b,PersistenceRequired:1b,Tags:["forkill","amogtask"],Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f]},DisabledSlots:4144959,HandItems:[{id:'minecraft:gold_ingot',Count:1b,tag:{CustomModelData:32}},{}]}
+summon armor_stand -26.0 32.0 109 {NoGravity:1b,Invulnerable:1b,Invisible:1b,PersistenceRequired:1b,Tags:["forkill","amogtask","baldi"],Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f]},DisabledSlots:4144959,HandItems:[{id:'minecraft:gold_ingot',Count:1b,tag:{CustomModelData:20}},{}]}
+summon armor_stand -24.0 32.0 109 {NoGravity:1b,Invulnerable:1b,Invisible:1b,PersistenceRequired:1b,Tags:["forkill","amogtask"],Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f]},DisabledSlots:4144959,HandItems:[{id:'minecraft:gold_ingot',Count:1b,tag:{CustomModelData:21}},{}]}

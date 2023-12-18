@@ -1,0 +1,86 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 12,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:1,deathitem:1b}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Social Credit",
+                  "color": "yellow",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 8,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{deathitem:1b}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Book",
+                  "color": "white",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{deathitem:1b}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Paper",
+                  "color": "white",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

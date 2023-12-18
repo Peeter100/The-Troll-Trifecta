@@ -1,0 +1,43 @@
+execute if score @s deathtime matches 2000 run function ttt:map_reset
+
+execute if score @s deathtime matches 2020 run tellraw @a [{"text":"[CANCEL]","color":"red","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":"NO GOING BACK","color":"#942626","italic":false,"font":"trollge"}]}},{"text":" Auto-retrying in ","color":"red","bold":false,"hoverEvent":{"action":"show_text","contents":[{"text":"","color":"green","italic":false}]}},{"text":"3","color":"yellow","bold":false,"hoverEvent":{"action":"show_text","contents":[{"text":"","color":"green","italic":false}]}},{"text":"...","color":"red","bold":false,"hoverEvent":{"action":"show_text","contents":[{"text":"","color":"green","italic":false}]}}]
+execute if score @s deathtime matches 2020 as @a at @s run playsound minecraft:block.note_block.pling master @s ~ ~ ~ 1000 0.9
+execute if score @s deathtime matches 2050 run tellraw @a [{"text":"[CANCEL]","color":"#D84545","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":"NO GOING BACK","color":"#942626","italic":false,"font":"trollge"}]}},{"text":" Auto-retrying in ","color":"#D84545","bold":false,"hoverEvent":{"action":"show_text","contents":[{"text":"","color":"green","italic":false}]}},{"text":"2","color":"#C4C425","bold":false,"hoverEvent":{"action":"show_text","contents":[{"text":"","color":"green","italic":false}]}},{"text":"...","color":"#D84545","bold":false,"hoverEvent":{"action":"show_text","contents":[{"text":"","color":"green","italic":false}]}}]
+execute if score @s deathtime matches 2050 as @a at @s run playsound minecraft:block.note_block.pling master @s ~ ~ ~ 1000 0.8
+execute if score @s deathtime matches 2080 run tellraw @a [{"text":"[CANCEL]","color":"#912E2E","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":"NO GOING BACK","color":"#942626","italic":false,"font":"trollge"}]}},{"text":" Auto-retrying in ","color":"#912E2E","bold":false,"hoverEvent":{"action":"show_text","contents":[{"text":"","color":"green","italic":false}]}},{"text":"1","color":"#7F7F18","bold":false,"hoverEvent":{"action":"show_text","contents":[{"text":"","color":"green","italic":false}]}},{"text":"...","color":"#912E2E","bold":false,"hoverEvent":{"action":"show_text","contents":[{"text":"","color":"green","italic":false}]}}]
+execute if score @s deathtime matches 2080 as @a at @s run playsound minecraft:block.note_block.pling master @s ~ ~ ~ 1000 0.5
+
+execute if score @s deathtime matches 2130 run scoreboard players set @s deathtime 2200
+execute if score @s deathtime matches 2200 at @r[team=p] run playsound custom.finale.intervention.isitfair master @a ~ ~ ~ 1000
+execute if score @s deathtime matches 2200 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"Is it really fair?","color":"gold"}]
+execute if score @s deathtime matches 2233 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"To...","color":"gold"}]
+execute if score @s deathtime matches 2252 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"do...","color":"gold"}]
+execute if score @s deathtime matches 2265 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"...all of this?","color":"gold"}]
+execute if score @s deathtime matches 2287 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"I mean,","color":"gold"}]
+execute if score @s deathtime matches 2304 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"I was going to visit these universes to ask the characters to join me,","color":"gold"}]
+execute if score @s deathtime matches 2393 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"maybe do a little stealing here and there,","color":"gold"}]
+execute if score @s deathtime matches 2435 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"but Trollge just trapped them here!","color":"gold"}]
+execute if score @s deathtime matches 2487 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"Forever, without any consent!","color":"gold"}]
+execute if score @s deathtime matches 2547 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"Look,","color":"gold"}]
+execute if score @s deathtime matches 2559 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"they all have their own stories,","color":"gold"}]
+execute if score @s deathtime matches 2606 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"their own friends,","color":"gold"}]
+execute if score @s deathtime matches 2625 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"heroes,","color":"gold"}]
+execute if score @s deathtime matches 2641 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"villains to defeat...","color":"gold"}]
+execute if score @s deathtime matches 2668 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"To us,","color":"gold"}]
+execute if score @s deathtime matches 2684 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"it is just a game,","color":"gold"}]
+execute if score @s deathtime matches 2704 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"but they LIVE in the virtual world.","color":"gold"}]
+execute if score @s deathtime matches 2810 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"To help them go back,","color":"gold"}]
+execute if score @s deathtime matches 2836 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"I need Trollge to be out of the way.","color":"gold"}]
+execute if score @s deathtime matches 2897 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"But if there's no Trollge,","color":"gold"}]
+execute if score @s deathtime matches 2925 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"no Trollface,","color":"gold"}]
+execute if score @s deathtime matches 2966 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"no trolling...","color":"gold"}]
+execute if score @s deathtime matches 2992 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"Then that means an end to unfair maps...","color":"gold"}]
+execute if score @s deathtime matches 3037 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"To a culture!","color":"gold"}]
+execute if score @s deathtime matches 3082 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"I summoned him to help me...","color":"gold"}]
+execute if score @s deathtime matches 3135 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"He is THE Troll, after all.","color":"gold"}]
+execute if score @s deathtime matches 3185 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"Corrupted by the internet, but the inventor of trolling!","color":"gold"}]
+execute if score @s deathtime matches 3257 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"Should've figured he would also target me...","color":"gold"}]
+execute if score @s deathtime matches 3302 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"We're going back,","color":"gold"}]
+execute if score @s deathtime matches 3326 run tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"you and me.","color":"gold"}]
+
+execute if score @s deathtime matches 3326 run function ttt:finale/intro/intervention/summon_ents

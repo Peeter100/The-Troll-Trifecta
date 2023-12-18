@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Outplayed",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Actually beat Mischievous World",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:jukebox"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "ttt:advancements/music"
+    },
+    "parent": "ttt:carpet"
+}

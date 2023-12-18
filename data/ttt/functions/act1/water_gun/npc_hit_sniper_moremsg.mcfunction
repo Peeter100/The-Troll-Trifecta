@@ -1,0 +1,1 @@
+tellraw @a [{"text":"<","color":"white"},{"text":"Sniper","color":"red"},{"text":"> "},{"text":"These darn kids!","color":"red"}]

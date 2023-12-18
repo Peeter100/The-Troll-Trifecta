@@ -1,0 +1,3 @@
+data merge entity @e[type=armor_stand,tag=bf1,limit=1] {HandItems:[{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:1}},{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:2}}],ArmorItems:[{},{},{},{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:3}}],Pose:{Head:[0f,0f,0f]}}
+data merge entity @e[type=armor_stand,tag=bf2,limit=1] {HandItems:[{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:4}},{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:5}}],ArmorItems:[{},{},{},{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:6}}],Pose:{Head:[0f,0f,0f]}}
+scoreboard players set @s fnf_dir_bf 0

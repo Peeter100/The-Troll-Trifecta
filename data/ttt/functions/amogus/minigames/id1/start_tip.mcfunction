@@ -1,0 +1,1 @@
+tellraw @a [{"text":"HINT:\n","color":"green","bold":true},{"text":"If nothing's happening, WALK.\nIf he's close, SNEAK.\nIf you're being chased, RUN.","bold":false}]

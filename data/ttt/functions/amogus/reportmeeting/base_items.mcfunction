@@ -1,0 +1,16 @@
+clear @s carrot_on_a_stick
+clear @s chain
+kill @e[type=item,nbt={Item:{tag:{lockedgus:1b}}}]
+
+item replace entity @s weapon.offhand with chain{display:{Name:'[{"text":"You are disguised as a ","color":"yellow","italic":false},{"text":"red crewmate","color":"red"},{"text":"!"}]',Lore:['[{"text":"You are an ","color":"gray","italic":false},{"text":"impostor","color":"red"},{"text":"."}]','{"text":"Kill all crewmates to win.","color":"gray","italic":false}']},CustomModelData:200,lockedgus:1b,impostorsuit:1b} 1
+item replace entity @s hotbar.0 with carrot_on_a_stick{display:{Name:'{"text":"Map","color":"white","italic":false}',Lore:['{"text":"Hold to view the map.","color":"gray","italic":false}']},CustomModelData:19,lockedgus:1b,mapicon:1b} 1
+
+item replace entity @s hotbar.1 with carrot_on_a_stick{display:{Name:'{"text":"Report","color":"gray","italic":false}',Lore:['{"text":"Right-click to report nearby dead bodies.","color":"gray","italic":false}']},CustomModelData:23,lockedgus:1b,reporticon:1b} 1
+item replace entity @s hotbar.2 with carrot_on_a_stick{display:{Name:'{"text":"Vent","color":"gray","italic":false}',Lore:['{"text":"Right-click to use vents.","color":"gray","italic":false}']},CustomModelData:30,lockedgus:1b,venticon:1b} 1
+item replace entity @s hotbar.3 with carrot_on_a_stick{display:{Name:'{"text":"Kill","color":"gray","italic":false}',Lore:['{"text":"Right-click to kill a nearby crewmate.","color":"gray","italic":false}']},CustomModelData:21,lockedgus:1b,killicon:1b} 1
+
+item replace entity @s hotbar.5 with carrot_on_a_stick{display:{Name:'{"text":"Sabotage Shortcut: Lights","color":"gray","italic":false}',Lore:['{"text":"Right-click to sabotage the lights.","color":"gray","italic":false}']},CustomModelData:33,lockedgus:1b,lightsicon:1b} 1
+item replace entity @s hotbar.6 with carrot_on_a_stick{display:{Name:'{"text":"Sabotage Shortcut: Nearby Doors","color":"gray","italic":false}',Lore:['{"text":"Right-click to sabotage all doors in your room.","color":"gray","italic":false}']},CustomModelData:32,lockedgus:1b,doorsicon:1b} 1
+execute if entity @e[tag=sv,scores={am_iconpref=0}] run item replace entity @s hotbar.7 with carrot_on_a_stick{display:{Name:'{"text":"Sabotage Shortcut: Reactor","color":"gray","italic":false}',Lore:['{"text":"Right-click to sabotage the reactor.","color":"gray","italic":false}']},CustomModelData:34,lockedgus:1b,reactoricon:1b,criticon:1b} 1
+execute if entity @e[tag=sv,scores={am_iconpref=1}] run item replace entity @s hotbar.7 with carrot_on_a_stick{display:{Name:'{"text":"Sabotage Shortcut: O2","color":"gray","italic":false}',Lore:['{"text":"Right-click to sabotage O2.","color":"gray","italic":false}']},CustomModelData:36,lockedgus:1b,o2icon:1b,criticon:1b} 1
+item replace entity @s hotbar.8 with carrot_on_a_stick{display:{Name:'{"text":"Full Sabotage Menu","color":"gray","italic":false}',Lore:['{"text":"Right-click to view the full sabotage menu.","color":"gray","italic":false}']},CustomModelData:35,lockedgus:1b,sabotageicon:1b} 1

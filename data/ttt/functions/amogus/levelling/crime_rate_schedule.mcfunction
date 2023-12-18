@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=sv,limit=1] if score @s deathtime matches 0 run function ttt:amogus/levelling/crime_rate

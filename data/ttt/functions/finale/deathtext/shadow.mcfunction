@@ -1,0 +1,2 @@
+tellraw @a [{"text":"<","color":"white"},{"text":"Shadow","color":"#C42626"},{"text":"> "},{"text":"Don't let some tall stickman take you out!","color":"#C42626"}]
+playsound custom.finale.deathtext.shadow master @a ~ ~ ~ 1000

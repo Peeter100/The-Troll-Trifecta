@@ -1,0 +1,61 @@
+{
+    "display": {
+        "title": {
+            "text": "Taskmaster",
+            "color": "red"
+        },
+        "description": {
+            "text": "Complete all of the unique tasks during The King's Tournament",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:redstone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "id1": {
+            "trigger": "minecraft:impossible"
+        },
+		"id2": {
+            "trigger": "minecraft:impossible"
+        },
+		"id3": {
+            "trigger": "minecraft:impossible"
+        },
+		"id4": {
+            "trigger": "minecraft:impossible"
+        },
+		"id5": {
+            "trigger": "minecraft:impossible"
+        },
+		"id6": {
+            "trigger": "minecraft:impossible"
+        },
+		"id7": {
+            "trigger": "minecraft:impossible"
+        },
+		"id8": {
+            "trigger": "minecraft:impossible"
+        },
+		"id9": {
+            "trigger": "minecraft:impossible"
+        },
+		"id10": {
+            "trigger": "minecraft:impossible"
+        },
+		"id11": {
+            "trigger": "minecraft:impossible"
+        },
+		"id12": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "ttt:advancements/task"
+    },
+    "parent": "ttt:challenge"
+}

@@ -1,0 +1,2 @@
+tag @s remove am_canreport
+item replace entity @s hotbar.1 with carrot_on_a_stick{display:{Name:'{"text":"Report","color":"gray","italic":false}',Lore:['{"text":"Right-click to report nearby dead bodies.","color":"gray","italic":false}']},CustomModelData:23,lockedgus:1b,reporticon:1b} 1

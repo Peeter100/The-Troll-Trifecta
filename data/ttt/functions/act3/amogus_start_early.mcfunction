@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=sv,scores={deathtime=0,actpart=1,playing=1}] at @s run function ttt:act3/amogus_start

@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "The End (it's the nether)",
+            "color": "red"
+        },
+        "description": {
+            "text": "Complete Act 3",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:netherrack"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "ttt:advancements/act3"
+    },
+    "parent": "ttt:act2"
+}

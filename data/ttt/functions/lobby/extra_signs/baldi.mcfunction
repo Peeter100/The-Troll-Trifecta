@@ -1,0 +1,1 @@
+tellraw @s [{"text":"Name: ","color":"gray"},{"text":"Baldi","color":"green"},{"text":"\nOrigin: "},{"text":"Baldi's Basics in Education and Learning","color":"green"},{"text":"\nOriginal skin download: N/A (game asset)"}]

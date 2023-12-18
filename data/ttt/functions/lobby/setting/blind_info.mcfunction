@@ -1,0 +1,1 @@
+tellraw @s [{"text":"If ENABLED, the crewmates in Among Us won't react to any of your activities. This includes killing and venting, but also fixing sabotages. This setting is experimental!","color":"green"}]

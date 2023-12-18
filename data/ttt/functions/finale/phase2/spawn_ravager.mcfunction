@@ -1,0 +1,1 @@
+summon ravager -118 11 21 {Team:"enemy",PersistenceRequired:1b,Health:80f,PatrolLeader:0b,Patrolling:0b,CanJoinRaid:0b,Tags:["forkill","bossmob"],Attributes:[{Name:generic.max_health,Base:80},{Name:generic.follow_range,Base:64},{Name:generic.knockback_resistance,Base:1},{Name:generic.movement_speed,Base:0.35},{Name:generic.attack_damage,Base:25}]}

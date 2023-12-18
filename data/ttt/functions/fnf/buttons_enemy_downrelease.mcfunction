@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=pnotebutton,tag=downbutton,limit=1] if entity @s[nbt={HandItems:[{id:"minecraft:redstone",Count:1b,tag:{CustomModelData:22}},{}]}] run item replace entity @s weapon.mainhand with redstone{CustomModelData:12}

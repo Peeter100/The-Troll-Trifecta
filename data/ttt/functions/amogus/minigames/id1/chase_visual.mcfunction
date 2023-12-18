@@ -1,0 +1,3 @@
+effect clear @e[tag=trollgeai] slowness
+data merge entity @e[tag=trollgefeet,limit=1] {HandItems:[{id:"minecraft:chain",Count:1b,tag:{CustomModelData:21}},{id:"minecraft:chain",Count:1b,tag:{CustomModelData:22}}],ArmorItems:[{},{},{},{id:"minecraft:chain",Count:1b,tag:{CustomModelData:23}}]}
+data merge entity @e[tag=trollgearm,limit=1] {HandItems:[{id:"minecraft:chain",Count:1b,tag:{CustomModelData:24}},{id:"minecraft:chain",Count:1b,tag:{CustomModelData:25}}],ArmorItems:[{},{},{},{id:"minecraft:chain",Count:1b,tag:{CustomModelData:26}}]}

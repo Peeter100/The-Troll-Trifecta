@@ -1,0 +1,1 @@
+item replace entity @e[type=armor_stand,tag=gfarm,limit=1] armor.head with redstone{CustomModelData:6}

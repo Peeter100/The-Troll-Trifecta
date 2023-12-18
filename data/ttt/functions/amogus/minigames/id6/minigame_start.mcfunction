@@ -1,0 +1,9 @@
+tp @a 31 27 143.0 180 0
+data merge block 33 28 144 {LootTable:"ttt:blocks/act3/chest1"}
+data merge block 32 28 144 {LootTable:"ttt:blocks/act3/chest2"}
+data merge block 31 28 144 {LootTable:"ttt:blocks/act3/chest3"}
+data merge block 30 28 144 {LootTable:"ttt:blocks/act3/chest4"}
+data merge block 33 27 144 {LootTable:"ttt:blocks/act3/chest5"}
+data merge block 32 27 144 {LootTable:"ttt:blocks/act3/chest6"}
+data merge block 31 27 144 {LootTable:"ttt:blocks/act3/chest7"}
+data merge block 30 27 144 {LootTable:"ttt:blocks/act3/chest8"}

@@ -1,0 +1,1 @@
+tp @a[tag=amplayer] -4 22 93 180 0

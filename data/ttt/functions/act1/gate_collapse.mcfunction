@@ -1,0 +1,2 @@
+tellraw @a [{"text":"<","color":"white"},{"text":"Guardsman","color":"yellow"},{"text":"> "},{"text":"I STILL didn't give you permission to enter!","color":"yellow"}]
+fill -5 29 64 -3 29 65 air destroy

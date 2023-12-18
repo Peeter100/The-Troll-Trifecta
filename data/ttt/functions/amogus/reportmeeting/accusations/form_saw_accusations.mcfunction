@@ -1,0 +1,2 @@
+execute if score @s am_ai_noticedtime matches 400.. unless entity @a[tag=amplayer,tag=reportee] run function ttt:amogus/reportmeeting/accusations/area_saw_important
+execute if score @s am_ai_noticedtime matches ..399 run function ttt:amogus/reportmeeting/accusations/area_saw

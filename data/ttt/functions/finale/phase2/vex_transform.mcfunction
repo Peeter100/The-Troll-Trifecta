@@ -1,0 +1,2 @@
+tag @s add forkill
+data merge entity @s {CustomNameVisible:1b,Team:"enemy",Health:30f,LifeTicks:500,CustomName:'{"text":"Twitter User","color":"aqua","italic":false}',Attributes:[{Name:generic.max_health,Base:30},{Name:generic.follow_range,Base:64},{Name:generic.knockback_resistance,Base:1},{Name:generic.attack_damage,Base:15},{Name:generic.attack_knockback,Base:0.1}]}

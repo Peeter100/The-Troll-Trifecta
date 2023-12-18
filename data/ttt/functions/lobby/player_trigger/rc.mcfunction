@@ -1,0 +1,2 @@
+execute if entity @s[nbt={SelectedItem:{tag:{readyicon:1b}}}] run function ttt:lobby/readyrc
+execute if entity @s[nbt={SelectedItem:{tag:{npcicon:1b}}}] run function ttt:lobby/player_trigger/npc_look_at_me

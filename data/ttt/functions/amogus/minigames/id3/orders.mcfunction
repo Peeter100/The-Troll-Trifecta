@@ -1,0 +1,12 @@
+clear @a chain
+tag @a[tag=amplayer] add offhandnoupdate
+kill @e[type=item,nbt={Item:{id:"minecraft:chain"}}]
+tellraw @a [{"text":"<","color":"white"},{"text":"Tails","color":"gold"},{"text":"> "},{"text":"Here are my tools, so you can defend yourself.","color":"gold"}]
+give @a[tag=amplayer] diamond_axe{CanDestroy:["minecraft:dead_bush"],display:{Name:'{"text":"Diamond Axe","color":"white","italic":false}',Lore:['[{"text":"Can break ","color":"gray","italic":false},{"text":"small wooden objects","color":"#A14000"},{"text":"."}]']},HideFlags:15,Unbreakable:1b,Enchantments:[{}]} 1
+give @a[tag=amplayer] diamond_pickaxe{display:{Name:'{"text":"Diamond Pickaxe","color":"white","italic":false}',Lore:['[{"text":"Can break ","color":"gray","italic":false},{"text":"quartz ore","color":"white"},{"text":"."}]']},HideFlags:15,Unbreakable:1b,Enchantments:[{}]} 1
+item replace entity @a[tag=amplayer] weapon.offhand with shield{HideFlags:7,display:{Name:'{"text":"Shield","color":"white","italic":false}'},Unbreakable:1b} 1
+item replace entity @a[tag=amplayer] armor.head with iron_helmet{display:{Name:'{"text":"Iron Helmet","color":"white","italic":false}',Lore:['{"text":"Protection IV","color":"gray","italic":false}']},HideFlags:7,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1}]} 1
+item replace entity @a[tag=amplayer] armor.chest with diamond_chestplate{display:{Name:'{"text":"Diamond Chestplate","color":"white","italic":false}',Lore:['{"text":"Protection IV","color":"gray","italic":false}']},HideFlags:7,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1}]} 1
+item replace entity @a[tag=amplayer] armor.legs with iron_leggings{display:{Name:'{"text":"Iron Leggings","color":"white","italic":false}',Lore:['{"text":"Protection IV","color":"gray","italic":false}']},HideFlags:7,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1}]} 1
+item replace entity @a[tag=amplayer] armor.feet with iron_boots{display:{Name:'{"text":"Iron Leggings","color":"white","italic":false}',Lore:['{"text":"Protection IV","color":"gray","italic":false}']},HideFlags:7,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1}]} 1
+effect clear @a[tag=amplayer] invisibility

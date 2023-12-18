@@ -1,0 +1,2 @@
+summon skeleton -118 11 21 {Team:"enemy",PersistenceRequired:1b,Health:1f,Tags:["forkill","bossmob"],HandItems:[{id:"minecraft:stone_sword",Count:1b,tag:{Unbreakable:1b,Enchantments:[{id:"minecraft:sharpness",lvl:6s},{id:"minecraft:knockback",lvl:7s}]}},{}],Attributes:[{Name:generic.max_health,Base:1},{Name:generic.follow_range,Base:64},{Name:generic.movement_speed,Base:0.45}],ArmorItems:[{},{},{id:"minecraft:chainmail_chestplate",Count:1b,tag:{Unbreakable:1b}},{id:"minecraft:chainmail_helmet",Count:1b,tag:{Unbreakable:1b}}]}
+# stone_axe: sharp3 knock7

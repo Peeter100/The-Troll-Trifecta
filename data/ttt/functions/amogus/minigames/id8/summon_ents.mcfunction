@@ -1,0 +1,5 @@
+summon armor_stand -40 43.875 94 {Rotation:[-135F,0F],NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,PersistenceRequired:1b,Tags:["forkill","amogtask","tpnpcbody","toad"],Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f],Head:[0f,0f,0f]},DisabledSlots:4144959,HandItems:[{id:"minecraft:chain",Count:1b,tag:{CustomModelData:71}},{}]}
+#summon armor_stand -40 44 94 {Rotation:[-135F,0F],NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,PersistenceRequired:1b,Tags:["forkill","amogtask","tpnpc","tpnpchead","toad"],Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f],Head:[0f,0f,0f]},DisabledSlots:4144959,HandItems:[{id:"minecraft:chain",Count:1b,tag:{CustomModelData:72}},{}]}
+summon armor_stand -40 43.875 94 {Rotation:[-135F,0F],NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,PersistenceRequired:1b,Tags:["forkill","amogtask","tpnpc","tpnpchead","toad"],Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f],Head:[0f,0f,0f]},DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:chain",Count:1b,tag:{CustomModelData:72}}]}
+
+clone 36 43 75 59 45 103 -49 41 92

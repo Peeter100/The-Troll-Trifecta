@@ -1,0 +1,2 @@
+execute if score @s dialoguetime matches ..549 run function ttt:act1/water_gun/tails_wgun_tick_hit
+execute if score @s dialoguetime matches 550.. run function ttt:act1/water_gun/tails_wgun_tick_flyaway

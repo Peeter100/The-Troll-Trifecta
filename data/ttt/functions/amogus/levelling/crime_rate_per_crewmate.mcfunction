@@ -1,0 +1,3 @@
+execute if score @s am_ai_location = @e[type=armor_stand,tag=amogdeadnotleveled,limit=1] am_ai_location run scoreboard players remove @e[type=marker,tag=sv,limit=1] am_lvl_addon 20
+execute if score @s am_ai_d_location = @e[type=armor_stand,tag=amogdeadnotleveled,limit=1] am_ai_location run scoreboard players remove @e[type=marker,tag=sv,limit=1] am_lvl_addon 15
+execute if score @s am_ai_l_location = @e[type=armor_stand,tag=amogdeadnotleveled,limit=1] am_ai_location run scoreboard players remove @e[type=marker,tag=sv,limit=1] am_lvl_addon 25

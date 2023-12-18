@@ -1,0 +1,3 @@
+execute unless score @e[type=marker,tag=sv,limit=1] fnf_actprog matches 1 run tellraw @s [{"text":"<","color":"white"},{"selector":"@s","color":"aqua"},{"text":"> "},{"text":"I'm too hungry to continue...","color":"aqua"}]
+execute if score @e[type=marker,tag=sv,limit=1] fnf_actprog matches 1 run tellraw @s [{"text":"<","color":"white"},{"selector":"@s","color":"aqua"},{"text":"> "},{"text":"I need ","color":"aqua"},{"text":"John","color":"yellow"},{"text":"'s Social Credit, so I can buy food...","color":"aqua"}]
+tag @s add hungertext

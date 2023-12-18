@@ -1,0 +1,3 @@
+#execute if score @s deathreason matches 60 run tellraw @a [{"selector":"@s"},{"text":" slightly inconvenienced ","color":"white"},{"selector":"@e[type=villager,tag=wgunangry,limit=1]","color":"yellow"},{"text":" (minimum wage)","color":"white"}]
+execute if score @s deathreason matches 60 run tellraw @a [{"selector":"@s"},{"text":" slightly inconvenienced ","color":"white"},{"selector":"@e[type=villager,tag=wgunangry,limit=1]","color":"yellow"}]
+execute if score @s deathreason matches 61 run tellraw @a [{"selector":"@s"},{"text":" got spindashed by ","color":"white"},{"text":"Tails","color":"gold"}]

@@ -1,0 +1,2 @@
+particle dust 1 0 0 1 ~ ~ ~ 0 0 0 0 1 force @a
+execute positioned ~ ~-1.5 ~ unless entity @a[tag=bossplayer,distance=..2] positioned ~ ~1.5 ~ positioned ^ ^ ^1 run function ttt:finale/healcloud_raycast

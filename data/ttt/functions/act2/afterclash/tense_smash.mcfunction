@@ -1,0 +1,3 @@
+execute as @a[team=p] at @s unless entity @s[nbt=!{Inventory:[{Slot:100b,tag:{greenarmor:1b}}]},nbt=!{Inventory:[{Slot:101b,tag:{greenarmor:1b}}]},nbt=!{Inventory:[{Slot:102b,tag:{greenarmor:1b}}]},nbt=!{Inventory:[{Slot:103b,tag:{greenarmor:1b}}]}] run scoreboard players set @s deathreason 30
+execute as @a[team=p] at @s unless entity @s[nbt=!{Inventory:[{Slot:100b,tag:{greenarmor:1b}}]},nbt=!{Inventory:[{Slot:101b,tag:{greenarmor:1b}}]},nbt=!{Inventory:[{Slot:102b,tag:{greenarmor:1b}}]},nbt=!{Inventory:[{Slot:103b,tag:{greenarmor:1b}}]}] run effect give @s instant_damage 1 0 true
+tellraw @a [{"text":"<"},{"text":"Tense1983","color":"#00A870"},{"text":"> "},{"text":"*destroying everything that's green*","color":"#00A870"}]

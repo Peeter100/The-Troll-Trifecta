@@ -1,0 +1,3 @@
+clear @s carrot_on_a_stick{readyicon:1b}
+execute unless score @s ready matches 1 run item replace entity @s hotbar.8 with carrot_on_a_stick{display:{Name:'{"text":"[-] Not Ready","color":"gray","italic":false}',Lore:['{"text":"Right-Click to ready/unready.","color":"#666666","italic":false}']},CustomModelData:2,locked:1b,readyicon:1b} 1
+execute if score @s ready matches 1 run item replace entity @s hotbar.8 with carrot_on_a_stick{display:{Name:'{"text":"[✔] Ready","color":"green","italic":false}',Lore:['{"text":"Right-Click to ready/unready.","color":"#666666","italic":false}']},CustomModelData:1,locked:1b,readyicon:1b} 1

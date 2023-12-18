@@ -1,0 +1,78 @@
+{
+  "type": "chest",
+  "pools": [
+	{
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:4}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Number 6",
+                  "color": "yellow",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:5,smokeitem6:1b,smokecollection:1b}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Number 45 (Cheese)",
+                  "color": "yellow",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "name": "ttt:blocks/act3/food_base"
+        }
+      ]
+    }
+  ]
+}

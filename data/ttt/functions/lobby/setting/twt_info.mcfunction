@@ -1,0 +1,1 @@
+tellraw @s [{"text":"This setting determines if Twitter Users get offended once you hit them. When set to ACT RATIONALLY, they will still spawn, but won't kill you for hurting them.","color":"green"}]

@@ -1,0 +1,4 @@
+tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"Here!","color":"gold"}]
+scoreboard players set @e[type=marker,tag=sv,scores={act=3,actpart=4}] dialogueseq 3
+give @a[team=p] carrot_on_a_stick{display:{Name:'{"text":"Sonic\'s Secret Ring","color":"yellow","italic":false}',Lore:['{"text":"Spam right-click to dash","color":"gray","italic":false}','[{"text":"forward using a ","color":"gray","italic":false},{"text":"spindash","color":"aqua"},{"text":"."}]','{"text":"Action can damage nearby enemies.","color":"gray","italic":false}']},CustomModelData:9,ring:1b}
+schedule function ttt:finale/deathtip/tipseq6_5 13t replace

@@ -1,0 +1,3 @@
+execute if score @e[type=marker,tag=sv,limit=1] fnf_carpetdeaths matches ..1 run tellraw @s {"text":"WARNING: This maze likes to change around its explorers.","color":"green"}
+execute if score @e[type=marker,tag=sv,limit=1] fnf_carpetdeaths matches 2.. run tellraw @s [{"text":"SNIPER HINT:\n","color":"yellow","bold":true},{"text":"- take your time by SNEAKING, as the maze will change around you (so you don't run into appearing red carpets)\n- use the ","bold":false},{"text":"Sniper Focus","color":"#FFCCCC","bold":false},{"text":" bar to time when you need to dodge the shots by RUNNING away","bold":false}]
+tag @s add hungertext

@@ -1,0 +1,2 @@
+execute store success score .crime-scheduled npcbodytp run schedule clear ttt:amogus/levelling/crime_rate_schedule
+execute if score .crime-scheduled npcbodytp matches 1 run function ttt:amogus/levelling/crime_rate_schedule

@@ -1,0 +1,1 @@
+tellraw @s [{"text":"This setting determines how many shots you get by filling the Water Gun.","color":"green"}]

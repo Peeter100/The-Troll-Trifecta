@@ -1,0 +1,22 @@
+{
+   "criteria": {
+     "c1": {
+       "trigger": "minecraft:player_hurt_entity",
+       "conditions": {
+         "entity": [
+           {
+             "condition": "minecraft:entity_properties",
+             "entity": "this",
+             "predicate": {
+               "type": "minecraft:iron_golem"
+             }
+           }
+         ]
+       }
+     }
+   },
+   "rewards": {
+     "function": "ttt:advancements/boss_hurt"
+   }
+ }
+ 

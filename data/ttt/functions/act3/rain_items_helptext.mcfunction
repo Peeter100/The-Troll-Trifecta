@@ -1,0 +1,1 @@
+tellraw @a [{"text":"","color":"yellow"},{"text":"Tip: ","color":"light_purple","bold":true},{"text":"You can talk to "},{"text":"Rick","color":"aqua"},{"text":" to get a shortcut!"}]

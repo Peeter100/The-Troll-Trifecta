@@ -1,0 +1,7 @@
+execute if score @s am_susscore matches ..24 run tellraw @a [{"text":"You were deemed as: ","color":"green"},{"text":"Innocent","bold":true},{"text":" (","italic":true},{"score":{"name":"@s","objective":"am_susscore"},"italic":true},{"text":"% Impostor)","italic":true}]
+execute if score @s am_susscore matches 25..49 run tellraw @a [{"text":"You were deemed as: ","color":"yellow"},{"text":"Sus","bold":true},{"text":" (","italic":true},{"score":{"name":"@s","objective":"am_susscore"},"italic":true},{"text":"% Impostor)","italic":true}]
+execute if score @s am_susscore matches 50..74 run tellraw @a [{"text":"You were deemed as: ","color":"gold"},{"text":"Sussy baka","bold":true},{"text":" (","italic":true},{"score":{"name":"@s","objective":"am_susscore"},"italic":true},{"text":"% Impostor)","italic":true}]
+execute if score @s am_susscore matches 75.. run tellraw @a [{"text":"You were deemed as: ","color":"red"},{"text":"Impostor","bold":true},{"text":" (","italic":true},{"score":{"name":"@s","objective":"am_susscore"},"italic":true},{"text":"%)","italic":true}]
+
+execute if score @s am_susscore matches 75.. run scoreboard players set @s acttimer 3010
+execute if score @s am_susscore matches 75.. run scoreboard players set @s dialoguetime 330

@@ -1,0 +1,6 @@
+execute if score @s ring_energy matches 100.. run title @s actionbar [{"text":"Energy: ||||||||||","color":"#006FFF"}]
+execute if score @s ring_energy matches 90..99 run title @s actionbar [{"text":"Energy: |||||||||","color":"#006FFF"},{"text":"|","color":"#00214D"}]
+execute if score @s ring_energy matches 80..89 run title @s actionbar [{"text":"Energy: ||||||||","color":"#006FFF"},{"text":"||","color":"#00214D"}]
+execute if score @s ring_energy matches 70..79 run title @s actionbar [{"text":"Energy: |||||||","color":"#006FFF"},{"text":"|||","color":"#00214D"}]
+execute if score @s ring_energy matches 60..69 run title @s actionbar [{"text":"Energy: ||||||","color":"#006FFF"},{"text":"||||","color":"#00214D"}]
+execute if score @s ring_energy matches ..59 run title @s actionbar [{"text":"Energy: |||||","color":"#006FFF"},{"text":"|||||","color":"#00214D"}]

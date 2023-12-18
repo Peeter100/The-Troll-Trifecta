@@ -1,0 +1,363 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 12,
+      "bonus_rolls": 0,
+      "entries": [
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:cake",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{cake:1b}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Cake",
+                  "color": "yellow",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:cocoa_beans",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{coffee:1b}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Coffee Beans",
+                  "color": "white",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 6,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:50}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Mushroom Stew",
+                  "color": "white",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:49}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Bread",
+                  "color": "white",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 7,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:48}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Apple",
+                  "color": "white",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:47}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Cooked Chicken",
+                  "color": "white",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:46}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Cooked Salmon",
+                  "color": "white",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 6,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:45}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Cooked Cod",
+                  "color": "white",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 8,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:44}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Baked Potato",
+                  "color": "white",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:43}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Beetroot Soup",
+                  "color": "white",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:42}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Beetroot",
+                  "color": "white",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 6,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:41}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Carrot",
+                  "color": "white",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:40}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Steak",
+                  "color": "white",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

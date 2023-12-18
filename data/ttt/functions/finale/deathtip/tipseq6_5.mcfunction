@@ -1,0 +1,2 @@
+tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"Use this ring and spindash into him!","color":"gold"}]
+schedule function ttt:finale/deathtip/tipseq6_6 46t replace

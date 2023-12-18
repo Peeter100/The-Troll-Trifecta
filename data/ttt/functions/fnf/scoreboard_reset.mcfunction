@@ -1,0 +1,14 @@
+scoreboard players set @s fnf_hd_l 0
+scoreboard players set @s fnf_hd_d 0
+scoreboard players set @s fnf_hd_u 0
+scoreboard players set @s fnf_hd_r 0
+scoreboard players set @s fnf_beat 0
+scoreboard players set @s fnf_beatoff 0
+scoreboard players set @s fnf_hp 50
+scoreboard players set @s fnf_mt 0
+scoreboard players set @s fnf_ad_bf 0
+scoreboard players set @s fnf_ad_p 0
+scoreboard players set @s fnf_misses 0
+scoreboard players set @s fnf_dd 0
+scoreboard players set @s fnf_dir_bf 0
+scoreboard players set @s fnf_dir_p 0

@@ -1,0 +1,5 @@
+summon item 20 30.65 154 {PickupDelay:5,Motion:[0.1,0.1,0.0],Tags:["forkill","amogtask"],Item:{id:"minecraft:string",Count:1b,tag:{display:{Name:'{"text":"String","color":"white","italic":false}'}}}}
+summon item 20 30.65 154 {PickupDelay:5,Motion:[-0.1,0.1,0.0],Tags:["forkill","amogtask"],Item:{id:"minecraft:string",Count:1b,tag:{display:{Name:'{"text":"String","color":"white","italic":false}'}}}}
+summon item 20 30.65 154 {PickupDelay:5,Motion:[0.0,0.1,0.1],Tags:["forkill","amogtask"],Item:{id:"minecraft:string",Count:1b,tag:{display:{Name:'{"text":"String","color":"white","italic":false}'}}}}
+summon item 20 30.65 154 {PickupDelay:5,Motion:[0.0,0.1,-0.1],Tags:["forkill","amogtask"],Item:{id:"minecraft:string",Count:1b,tag:{display:{Name:'{"text":"String","color":"white","italic":false}'}}}}
+scoreboard players set @s am_gamescore1 1

@@ -1,0 +1,2 @@
+tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"the ring hurts everything BESIDES Twitter Users and Evokers,","color":"gold"}]
+schedule function ttt:finale/deathtip/tipseq7_3 84t replace

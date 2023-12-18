@@ -1,0 +1,2 @@
+tellraw @s [{"text":"<","color":"white"},{"text":"Granter Morshu","color":"yellow"},{"text":"> "},{"text":"I can't give credit. Come back when you're a little mmm... richer!","color":"yellow"}]
+playsound custom.act1.morshu master @s ~ ~ ~ 1000

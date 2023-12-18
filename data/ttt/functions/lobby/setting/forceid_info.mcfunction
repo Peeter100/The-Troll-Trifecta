@@ -1,0 +1,1 @@
+tellraw @s [{"text":"Choose which task will always appear first when playing Act 3 Among Us. When left at STORY MODE, it uses the default progress prioritizing algorithm. Useful for replaying specific tasks or finding easter eggs.","color":"green"}]

@@ -1,0 +1,2 @@
+tag @s add am_canvent
+item replace entity @s hotbar.2 with carrot_on_a_stick{display:{Name:'{"text":"Vent","color":"red","italic":false}',Lore:['{"text":"Right-click to use vents.","color":"gray","italic":false}']},CustomModelData:29,lockedgus:1b,venticon:1b} 1

@@ -1,0 +1,2 @@
+execute at @p[tag=amplayer] run playsound custom.act3.bald.doors_single_open master @a ~ ~ ~ 1000
+item replace entity @e[type=armor_stand,tag=doorinteract2] weapon.mainhand with gold_ingot{CustomModelData:30} 1

@@ -1,0 +1,2 @@
+tellraw @a [{"text":"<","color":"white"},{"text":"Heisenberg","color":"#FFA159"},{"text":"> "},{"text":"You need to be the one who knocks!","color":"#FFA159"}]
+playsound custom.finale.deathtext.waltuh master @a ~ ~ ~ 1000

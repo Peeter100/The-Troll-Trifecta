@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Not So Funny Now",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Fight fire with water",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:54}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "ttt:advancements/carpet"
+    },
+    "parent": "ttt:root"
+}

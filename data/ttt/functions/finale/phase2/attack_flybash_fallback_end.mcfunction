@@ -1,0 +1,6 @@
+execute if score @s f3_attackcombo matches ..2 run data merge entity 00000002-0000-0000-0000-000000000000 {HandItems:[{id:"minecraft:chain",Count:1b,tag:{CustomModelData:221}},{id:"minecraft:chain",Count:1b,tag:{CustomModelData:222}}],ArmorItems:[{},{},{},{id:"minecraft:chain",Count:1b,tag:{CustomModelData:223}}]}
+execute if score @s f3_attackcombo matches ..2 run data merge entity 00000003-0000-0000-0000-000000000000 {HandItems:[{id:"minecraft:chain",Count:1b,tag:{CustomModelData:224}},{id:"minecraft:chain",Count:1b,tag:{CustomModelData:225}}],ArmorItems:[{},{},{},{id:"minecraft:chain",Count:1b,tag:{CustomModelData:226}}]}
+execute if score @s f3_attackcombo matches ..2 run data merge entity 00000004-0000-0000-0000-000000000000 {HandItems:[{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:107}},{}],ArmorItems:[{},{},{},{}]}
+
+execute if score @s f3_attackcombo matches 3.. if score @s dialogueseq matches 2 if score @s f3_deathhintseq matches 1 unless entity @e[type=iron_golem,tag=shutthefuckup] run function ttt:finale/deathtip/tipseq6_1
+execute if score @s f3_attackcombo matches 3.. run function ttt:finale/phase2/attack_convert_insky

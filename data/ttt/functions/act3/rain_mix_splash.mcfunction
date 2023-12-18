@@ -1,0 +1,3 @@
+give @p[scores={y=24..27},team=p] splash_potion{display:{Name:'{"text":"Splash Bottle of Oil","color":"yellow","italic":false}'},HideFlags:98,oilsplash:1b,CustomPotionColor:12564736,CustomPotionEffects:[{Id:13,Amplifier:0b,Duration:100,ShowParticles:0b}]} 1
+execute as @e[type=marker,tag=sv] if score @s am_rickinteract matches 1.. if score @s am_seentrollge matches 1.. run title @a actionbar {"text":"Cover yourself in oil","color":"green"}
+kill @e[type=item,tag=casted]

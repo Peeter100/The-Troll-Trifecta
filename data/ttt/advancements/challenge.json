@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "High Clash",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Get 25000 score in Sans' Challenge",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:netherite_axe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "ttt:advancements/challenge"
+    },
+    "parent": "ttt:root"
+}

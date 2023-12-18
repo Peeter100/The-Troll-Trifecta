@@ -1,0 +1,2 @@
+execute at @e[type=armor_stand,tag=amogalive,limit=1,sort=random] run playsound custom.amogus.discussion master @a ~ ~ ~ 1000
+execute if entity @e[type=marker,tag=sv,scores={acttimer=3020..3029,dialoguetime=108..180}] run schedule function ttt:amogus/reportmeeting/discussion_noises 5t replace

@@ -1,0 +1,2 @@
+stopsound @a master custom.act2.papyrus.speech
+execute unless score @e[type=marker,tag=sv,limit=1] am_gametimer matches 1040.. run schedule function ttt:amogus/minigames/id11/papyrus_cycle_start 10t replace

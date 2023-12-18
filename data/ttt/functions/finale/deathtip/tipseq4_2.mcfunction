@@ -1,0 +1,2 @@
+tellraw @a [{"text":"<","color":"white"},{"text":"Peeter100","color":"gold"},{"text":"> "},{"text":"Fight Trollge when there aren't any Vindicators around.","color":"gold"}]
+schedule function ttt:finale/deathtip/tipseq4_3 56t replace
