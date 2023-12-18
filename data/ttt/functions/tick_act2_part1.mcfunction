@@ -90,8 +90,13 @@ execute as @a[team=p,nbt={Inventory:[{Slot:100b,tag:{tailsshoes:1b}}]}] at @s ru
 
 
 ## cr_beeninbattle
-# 1 --> enter game [x]
-# 2 --> start clash royale
-# 3 --> boss spawns [x]
-# 4 --> boss defeat [x]
-# 5 --> use potion
+# 1 --> enter game --> DEFAULT START
+# 2 --> start clash royale --> START ICE WITH MORE SCORE
+# 3 --> boss spawns --> START ON CLASH
+# 4 --> boss defeat --> START ON BOSS
+# 5 --> after shooting TNT --> DEFAULT START, ALLOWED TO SKIP
+
+## cr_seensans
+# 1 --> find wand
+# 2 --> buy item from undyne
+# 3 --> has used skip from score==2

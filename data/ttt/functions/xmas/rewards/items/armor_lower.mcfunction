@@ -1,0 +1,11 @@
+execute if score @s npcbodytp matches ..15 run tellraw @p[tag=needsgift] {"text":"You got leggings!","color":"green"}
+execute if score @s npcbodytp matches 16.. run tellraw @p[tag=needsgift] {"text":"You got boots!","color":"green"}
+
+execute if score @s npcbodytp matches 13 run give @p[tag=needsgift] leather_leggings{display:{Name:'{"text":"Christmas Outfit","color":"white","italic":false}',color:65280},Enchantments:[{id:"minecraft:unbreaking",lvl:3s},{id:"minecraft:protection",lvl:3s}],HideFlags:64} 1
+#execute if score @s npcbodytp matches 14 run give @p[tag=needsgift] iron_leggings{display:{Name:'{"text":"Snow Frosted Leggings","color":"white","italic":false}'},Enchantments:[{id:"minecraft:thorns",lvl:1s}]} 1
+execute if score @s npcbodytp matches 14..15 run give @p[tag=needsgift] netherite_leggings{display:{Name:'{"text":"Charcoal Leggings","color":"gold","italic":false}'},Enchantments:[{id:"minecraft:protection",lvl:4s}]} 1
+
+execute if score @s npcbodytp matches 16 run give @p[tag=needsgift] leather_boots{display:{Name:'{"text":"Christmas Outfit","color":"white","italic":false}',color:16711680},Enchantments:[{id:"minecraft:unbreaking",lvl:3s},{id:"minecraft:protection",lvl:3s}],HideFlags:64} 1
+#execute if score @s npcbodytp matches 17 run give @p[tag=needsgift] iron_boots{display:{Name:'{"text":"Snow Frosted Boots","color":"white","italic":false}'},Enchantments:[{id:"minecraft:thorns",lvl:1s}]} 1
+execute if score @s npcbodytp matches 17 run give @p[tag=needsgift] golden_boots{display:{Name:'{"text":"Sacred Boots","color":"yellow","italic":false}'},Enchantments:[{id:"minecraft:protection",lvl:5s},{id:"minecraft:feather_falling",lvl:5s},{id:"minecraft:depth_strider",lvl:3s},{id:"minecraft:unbreaking",lvl:3s}],AttributeModifiers:[{AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Amount:0.15,Operation:0,UUID:[I;1567926765,1791050306,-1836174422,-1527283624],Slot:"feet"},{AttributeName:"generic.armor",Name:"generic.armor",Amount:5,Operation:0,UUID:[I;156320195,1791050306,-1836141422,-1527283624],Slot:"feet"}]} 1
+execute if score @s npcbodytp matches 18 run give @p[tag=needsgift] netherite_boots{display:{Name:'{"text":"Charcoal Boots","color":"gold","italic":false}'},Enchantments:[{id:"minecraft:protection",lvl:4s}]} 1

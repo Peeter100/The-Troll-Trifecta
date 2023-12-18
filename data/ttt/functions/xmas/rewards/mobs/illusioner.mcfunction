@@ -1,0 +1,2 @@
+tellraw @p[tag=needsgift] {"text":"You summoned the Illusioner!","color":"green"}
+summon illusioner ~ ~ ~ {CustomName:'{"text":"Illusioner","color":"red","italic":false}',PersistenceRequired:0b,Health:40f,Tags:["forkill","xmasmob"],Attributes:[{Name:"generic.max_health",Base:40},{Name:"generic.attack_damage",Base:5}],HandItems:[{id:"minecraft:iron_axe",Count:1b,tag:{Unbreakable:1b}},{}],Patrolling:0b,CanJoinRaid:0b,Team:"enemy"}

@@ -1,0 +1,11 @@
+tellraw @p[tag=needsgift] {"text":"You got a special item!","color":"green"}
+
+execute if score @s npcbodytp matches ..26 if entity @e[type=marker,tag=sv,scores={xmas_hasblaster=0}] run give @p[tag=needsgift] ender_eye{display:{Name:'{"text":"Snow-Thrower","color":"light_purple","italic":false}',Lore:['{"text":"Hold right-click to fire","color":"gray","italic":false}','{"text":"a burst of snow that","color":"gray","italic":false}','{"text":"damages most hostile mobs.","color":"gray","italic":false}']},CustomModelData:2,snowthrower:1b} 1
+execute if score @s npcbodytp matches ..26 unless entity @e[type=marker,tag=sv,scores={xmas_hasblaster=0}] run give @p[tag=needsgift] ender_eye{display:{Name:'{"text":"Ice Bomb","color":"aqua","italic":false}',Lore:['{"text":"Right-click to slow down","color":"gray","italic":false}','[{"text":"all nearby mobs for ","color":"gray","italic":false},{"text":"5s","color":"yellow"},{"text":"."}]']},CustomModelData:3,icebomb:1b} 1
+execute if score @s npcbodytp matches ..26 run scoreboard players set @e[type=marker,tag=sv] xmas_hasblaster 1
+
+execute if score @s npcbodytp matches 27..28 run give @p[tag=needsgift] ender_eye{display:{Name:'{"text":"Ice Bomb","color":"aqua","italic":false}',Lore:['{"text":"Right-click to slow down","color":"gray","italic":false}','[{"text":"all nearby mobs for ","color":"gray","italic":false},{"text":"5s","color":"yellow"},{"text":"."}]']},CustomModelData:3,icebomb:1b} 1
+
+execute if score @s npcbodytp matches 29.. if entity @e[type=marker,tag=sv,scores={xmas_hasjolly=0}] run give @p[tag=needsgift] ender_eye{display:{Name:'{"text":"Jolly Stick","color":"green","italic":false}',Lore:['{"text":"Hold right-click to heal.","color":"gray","italic":false}']},CustomModelData:4,jollystick:1b} 1
+execute if score @s npcbodytp matches 29.. unless entity @e[type=marker,tag=sv,scores={xmas_hasjolly=0}] run give @p[tag=needsgift] ender_eye{display:{Name:'{"text":"Ice Bomb","color":"aqua","italic":false}',Lore:['{"text":"Right-click to slow down","color":"gray","italic":false}','[{"text":"all nearby mobs for ","color":"gray","italic":false},{"text":"5s","color":"yellow"},{"text":"."}]']},CustomModelData:3,icebomb:1b} 1
+execute if score @s npcbodytp matches 29.. run scoreboard players set @e[type=marker,tag=sv] xmas_hasjolly 1

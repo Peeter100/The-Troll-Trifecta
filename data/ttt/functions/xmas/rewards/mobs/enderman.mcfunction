@@ -1,0 +1,2 @@
+tellraw @p[tag=needsgift] {"text":"You summoned Splenderman!","color":"green"}
+summon enderman ~ ~ ~ {CustomName:'{"text":"Splenderman","color":"light_purple","italic":false}',PersistenceRequired:0b,Health:40f,Tags:["forkill","xmasmob"],Attributes:[{Name:"generic.max_health",Base:40},{Name:"generic.attack_damage",Base:5}],AngerTime:21474836}

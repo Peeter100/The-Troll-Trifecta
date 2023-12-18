@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "c1": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:ender_eye"
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "ttt:advancements/ender_eye"
+    }
+}

@@ -1,0 +1,2 @@
+tellraw @a [{"text":"<"},{"text":"Sans","color":"#C4E2FF"},{"text":"> "},{"text":"i can respect that","color":"#C4E2FF","font":"sans"}]
+execute as @r[team=p] at @s run playsound custom.act2.sans.speech_short master @a ~ ~ ~ 1000

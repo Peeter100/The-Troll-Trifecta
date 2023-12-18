@@ -1,5 +1,8 @@
-tellraw @s [{"text":"Welcome to ","color":"green"},{"text":"The Troll Trifecta","color":"yellow"},{"text":"!\nMake sure to download the resource pack from the map page!"},{"text":"\n(if it's not enabled automatically)","color":"#539E4A","italic":true}]
+#tellraw @s [{"text":"Welcome to ","color":"green"},{"text":"The Troll Trifecta","color":"yellow"},{"text":"!\nMake sure to download the resource pack from the map page!"},{"text":"\n(if it's not enabled automatically)","color":"#539E4A","italic":true}]
 title @s reset
+
+scoreboard players set @s ms_seqid 1
+scoreboard players set @s ms_seqtimer 30
 
 execute if entity @e[type=marker,tag=sv,scores={playing=0}] run tp @s 0 30 0
 execute if entity @e[type=marker,tag=sv,scores={playing=0}] run gamemode adventure @s

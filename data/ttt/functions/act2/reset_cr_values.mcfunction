@@ -9,8 +9,8 @@ scoreboard players set @e[type=marker,tag=sv] cr_witalive 0
 scoreboard players set @e[type=marker,tag=sv] cr_hogspawned 0
 scoreboard players set @e[type=marker,tag=sv] cr_hogalive 0
 scoreboard players set @e[type=marker,tag=sv] cr_gianthp 200
-scoreboard players set @e[type=marker,tag=sv,scores={cr_beeninbattle=..2}] cr_score 0
-scoreboard players set @e[type=marker,tag=sv,scores={cr_beeninbattle=3..}] cr_score 1250
+scoreboard players set @e[type=marker,tag=sv] cr_score 0
+scoreboard players set @e[type=marker,tag=sv,scores={cr_beeninbattle=2..4}] cr_score 1250
 scoreboard players set @a cr_killvex 0
 bossbar set minecraft:gianthp players @a
 bossbar set minecraft:gianthp value 200

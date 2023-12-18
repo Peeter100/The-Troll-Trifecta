@@ -24,6 +24,7 @@ setblock 2 33 4 oak_wall_sign[facing=north]{Color:"orange",GlowingText:1b,Text1:
 setblock -2 33 4 oak_wall_sign[facing=north]{Color:"light_blue",GlowingText:1b,Text1:'{"text":"================","color":"white","bold":true}',Text2:'{"text":"Cheats","color":"aqua","bold":true}',Text3:'{"text":"Right - Click","color":"green","italic":true,"clickEvent":{"action":"run_command","value":"/execute at @s as @e[type=marker,tag=sv] run function ttt:lobby/interact_cheats"}}',Text4:'{"text":"================","color":"white","bold":true}'} replace
 
 tp @a 0 30 0 0 0
+scoreboard objectives setdisplay sidebar deathvis
 
 execute if score @s actunlocked matches 4.. unless entity @s[tag=hasdiamonds,scores={d1=1,d2=1,d3=1,d4=1,d5=1,d6=1}] unless entity @e[type=armor_stand,tag=extrastand] run function ttt:lobby/summon_extras
 execute if entity @s[tag=hasdiamonds,scores={d1=1,d2=1,d3=1,d4=1,d5=1,d6=1}] unless entity @e[type=armor_stand,tag=extrastand] run function ttt:lobby/summon_extras

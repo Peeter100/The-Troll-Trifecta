@@ -33,7 +33,7 @@ execute if entity @s[scores={dialogueseq=5}] run function ttt:act1/dialogue_p100
 # 4 --> no hunger
 # 5 --> got tails' spawn message
 
-execute if entity @a[team=p,scores={z=25..58}] unless entity @a[team=p,scores={deathreason=32}] run function ttt:act1/tick_near_spawn
+execute if entity @a[team=p,scores={z=25..58}] unless entity @a[team=p,scores={deathreason=32}] run function ttt:act1/near_spawn/base
 
 execute as @a[team=p,nbt={OnGround:1b}] at @s run function ttt:act1/onground_main
 

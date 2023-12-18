@@ -15,6 +15,7 @@ execute as @a[team=p] at @s store result score @s x run data get entity @s Pos[0
 execute as @a[team=p] at @s store result score @s y run data get entity @s Pos[1]
 execute as @a[team=p] at @s store result score @s z run data get entity @s Pos[2]
 
+execute if entity @s[scores={dialogueseq=-1}] if block -18 31 79 tnt run function ttt:act2/afterclash/tick_allow_reenter
 execute if entity @s[scores={acttimer=1..}] run function ttt:tick_act2_part3_timer
 
 

@@ -1,0 +1,2 @@
+tellraw @s {"text":"You found what the point of the mask is!","color":"green"}
+item replace entity @s armor.head with carved_pumpkin{display:{Name:'{"text":"The Mask","color":"green","italic":false}'},HideFlags:4,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]} 1

@@ -57,3 +57,12 @@ execute if entity @s[scores={acttimer=697}] run setblock -4 29 151 air destroy
 execute if entity @s[scores={acttimer=697}] run setblock -9 29 154 air destroy
 
 execute if entity @s[scores={acttimer=698}] run scoreboard players set @s acttimer 0
+
+execute if entity @s[scores={acttimer=840}] run tellraw @a [{"text":"<"},{"text":"Sans","color":"#C4E2FF"},{"text":"> "},{"text":"come over here if you ACTUALLY want to face my challenge again","color":"#C4E2FF","font":"sans"}]
+execute if entity @s[scores={acttimer=840}] as @e[tag=sanshead] at @s run playsound custom.act2.sans.speech_very_long master @a ~ ~ ~ 1000
+
+execute if entity @s[scores={acttimer=910}] run stopsound @a master custom.act2.sans.speech_very_long
+
+execute if entity @s[scores={acttimer=920}] run tellraw @a [{"text":"<"},{"text":"Sans","color":"#C4E2FF"},{"text":"> "},{"text":"sort of like a quest that's already been completed","color":"#C4E2FF","font":"sans"}]
+execute if entity @s[scores={acttimer=920}] as @e[tag=sanshead] at @s run playsound custom.act2.sans.speech_long master @a ~ ~ ~ 1000
+execute if entity @s[scores={acttimer=920}] run scoreboard players set @s acttimer 0

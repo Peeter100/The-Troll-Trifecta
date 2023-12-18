@@ -1,12 +1,6 @@
 # RUNS AS PLAYER WHO DIED
 
-execute if block ~ ~ ~ lava run scoreboard players set @s[scores={deathreason=0}] deathreason 1
-execute if block ~ ~-1 ~ lava run scoreboard players set @s[scores={deathreason=0}] deathreason 1
-execute unless block ~ ~ ~ #ttt:passable unless block ~ ~1 ~ #ttt:passable run scoreboard players set @s[scores={deathreason=0}] deathreason 2
-scoreboard players set @s[scores={deathreason=0},tag=clashplayer] deathreason 25
-scoreboard players set @s[scores={deathreason=0,z=21..34},tag=1hpchallenge] deathreason 18
-scoreboard players set @s[scores={deathreason=0},tag=1hpchallenge] deathreason 17
-scoreboard players set @s[scores={deathreason=0,x=19..49,y=19..26,z=153..180},tag=amplayer] deathreason 25
+execute if score @s deathreason matches 0 run function ttt:death_assume
 
 execute if score @s deathreason matches 0..9 run function ttt:reset/deathgroup1
 execute if score @s deathreason matches 10..19 run function ttt:reset/deathgroup2
@@ -28,6 +22,7 @@ schedule clear ttt:amogus/minigames/id10/play_ambience
 schedule clear ttt:amogus/minigames/id11/papyrus_cycle_start
 schedule clear ttt:amogus/minigames/id11/papyrus_cycle_stop
 kill @e[type=tnt]
+kill @e[tag=xmasmob]
 
 execute as @e[type=marker,tag=sv] run function ttt:death_server
 title @a reset
@@ -38,6 +33,7 @@ execute if score @s deathreason matches 58 run playsound custom.amogus.victory_c
 
 scoreboard players set @a deathreason 0
 tag @a remove ignoreinventory
+tag @a remove xmas_bounty
 
 gamemode adventure @a[team=!s]
 gamemode spectator @a[team=s]

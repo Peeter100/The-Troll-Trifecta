@@ -1,0 +1,5 @@
+scoreboard players set @s dialoguetime 200
+scoreboard players enable @a[team=p] Game_Choice
+tp @a[team=p] -22 32 55
+tellraw @a [{"text":"<"},{"text":"Sans","color":"#C4E2FF"},{"text":"> "},{"text":"what will it be? ","color":"#C4E2FF","font":"sans"},{"color":"green","text":"[Skip the fight]","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":"Click to skip Sans' Challenge!","color":"green","italic":false}]},"clickEvent":{"action":"run_command","value":"/trigger Game_Choice set 1"}},{"text":" "},{"color":"red","text":"[Keep playing]","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":"Click to play Act 2 in its entirety!","color":"red","italic":false}]},"clickEvent":{"action":"run_command","value":"/trigger Game_Choice set 2"}}]
+execute as @r[team=p] at @s run playsound custom.act2.sans.speech_short master @a ~ ~ ~ 1000

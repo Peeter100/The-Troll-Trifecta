@@ -1,0 +1,19 @@
+{
+    "values": [
+        "minecraft:blaze",
+        "minecraft:enderman",
+        "minecraft:endermite",
+        "minecraft:evoker",
+        "minecraft:evoker_fangs",
+        "minecraft:pillager",
+        "minecraft:vindicator",
+        "minecraft:ravager",
+        "minecraft:skeleton",
+        "minecraft:hoglin",
+        "minecraft:witch",
+        "minecraft:vex",
+        "minecraft:silverfish",
+        "minecraft:illusioner",
+        "minecraft:iron_golem"
+    ]
+}

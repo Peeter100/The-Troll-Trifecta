@@ -13,3 +13,4 @@ execute as @a[tag=hadbow] at @s anchored eyes run playsound item.shield.break ma
 clear @a arrow
 kill @e[type=item]
 tag @a remove hadbow
+stopsound @a master custom.act2.sans.speech_very_long

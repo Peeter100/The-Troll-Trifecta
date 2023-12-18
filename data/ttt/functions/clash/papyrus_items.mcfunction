@@ -12,6 +12,6 @@ item replace entity @a[team=p] hotbar.0 with iron_sword{display:{Name:'{"text":"
 item replace entity @a[team=p] hotbar.1 with netherite_axe{display:{Name:'{"text":"Netherite Axe","color":"yellow","italic":false}'},HideFlags:7,Unbreakable:1b,armoraxe:1b,Enchantments:[{id:"minecraft:sharpness",lvl:20s}]} 1
 item replace entity @a[team=p] hotbar.2 with carrot_on_a_stick{display:{Name:'[{"text":"Snow Blaster ","color":"yellow","italic":false},{"text":"(Melee)","color":"gray","italic":true}]',Lore:['{"text":"Creates a powerful snow","color":"gray","italic":false}','{"text":"explosion in front of you.","color":"gray","italic":false}']},HideFlags:7,Unbreakable:1b,CustomModelData:6,armorcannon:1b} 1
 item replace entity @a[team=p] weapon.offhand with shield{display:{Name:'{"text":"Shield","color":"white","italic":false}'},HideFlags:7,Unbreakable:1b,armorshield:1b} 1
-execute unless score @s cr_beeninbattle matches 4.. run summon lightning_bolt -58 16 150
+execute unless score @s cr_beeninbattle matches 3..4 run summon lightning_bolt -58 16 150
 
 execute if entity @s[scores={d1=1,d2=1,d3=1,d4=1,d5=1,d6=1,st_bossdiff=1},tag=hasdiamonds] run function ttt:clash/papyrus_items_op

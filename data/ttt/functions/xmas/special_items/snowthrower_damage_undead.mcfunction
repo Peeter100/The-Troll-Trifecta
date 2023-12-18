@@ -1,0 +1,1 @@
+execute unless entity @s[tag=amogai] run effect give @s instant_health 1 0 true

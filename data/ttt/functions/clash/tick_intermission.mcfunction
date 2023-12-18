@@ -27,7 +27,7 @@ execute as @a[team=p,scores={y=19..},nbt={OnGround:1b}] at @s run function ttt:c
 
 execute if entity @s[scores={acttimer=608}] as @r[tag=clashplayer] at @s run playsound custom.act2.royale master @a ~ ~ ~ 1000
 
-execute if entity @s[scores={acttimer=680,cr_beeninbattle=3..}] run scoreboard players set @s acttimer 920
+execute if entity @s[scores={acttimer=680,cr_beeninbattle=2..}] run scoreboard players set @s acttimer 920
 execute if entity @s[scores={acttimer=690}] run tellraw @a [{"text":"<"},{"text":"Sans","color":"#C4E2FF"},{"text":"> "},{"text":"wait","color":"#C4E2FF","font":"sans"}]
 execute if entity @s[scores={acttimer=690}] as @r[tag=clashplayer] at @s run playsound custom.act2.sans.speech_short master @a ~ ~ ~ 1000
 
@@ -54,5 +54,5 @@ execute if entity @s[scores={acttimer=880}] run tellraw @a [{"text":"<"},{"text"
 execute if entity @s[scores={acttimer=880}] as @r[tag=clashplayer] at @s run playsound custom.act2.sans.speech_mid master @a ~ ~ ~ 1000
 
 execute if entity @s[scores={acttimer=920,cr_beeninbattle=..1}] run scoreboard players set @s cr_beeninbattle 2
-execute if entity @s[scores={acttimer=920,cr_beeninbattle=..3}] run tellraw @a [{"text":"<"},{"text":"Sans","color":"#C4E2FF"},{"text":"> "},{"text":"have some more kid","color":"#C4E2FF","font":"sans"}]
-execute if entity @s[scores={acttimer=920,cr_beeninbattle=..3}] as @r[tag=clashplayer] at @s run playsound custom.act2.sans.speech_mid master @a ~ ~ ~ 1000
+execute if entity @s[scores={acttimer=920,cr_beeninbattle=..2}] run tellraw @a [{"text":"<"},{"text":"Sans","color":"#C4E2FF"},{"text":"> "},{"text":"have some more kid","color":"#C4E2FF","font":"sans"}]
+execute if entity @s[scores={acttimer=920,cr_beeninbattle=..2}] as @r[tag=clashplayer] at @s run playsound custom.act2.sans.speech_mid master @a ~ ~ ~ 1000

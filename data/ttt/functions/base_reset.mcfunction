@@ -25,8 +25,14 @@ scoreboard players set @e[type=marker,tag=sv] st_twt 1
 scoreboard players set @e[type=marker,tag=sv] st_wgun 3
 scoreboard players set @e[type=marker,tag=sv] st_fnf_fire 1
 scoreboard players set @e[type=marker,tag=sv] st_actprog 0
+scoreboard players set @e[type=marker,tag=sv] st_xmas 0
 scoreboard players set @e[type=marker,tag=sv] deathtime 0
 scoreboard players set @e[type=marker,tag=sv] readytimer 0
+
+execute as @e[type=marker,tag=sv] run function ttt:lobby/reset_act1
+execute as @e[type=marker,tag=sv] run function ttt:lobby/reset_act2
+execute as @e[type=marker,tag=sv] run function ttt:lobby/reset_act3
+execute as @e[type=marker,tag=sv] run function ttt:lobby/reset_among
 
 scoreboard players set @e[type=marker,tag=sv] d1 0
 scoreboard players set @e[type=marker,tag=sv] d2 0

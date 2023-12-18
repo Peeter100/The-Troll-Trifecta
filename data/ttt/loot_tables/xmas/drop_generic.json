@@ -1,0 +1,31 @@
+{
+  "type": "generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 6,
+          "name": "ttt:xmas/drop_item"
+        },
+        {
+          "type": "loot_table",
+          "weight": 5,
+          "name": "ttt:xmas/drop_mob"
+        },
+        {
+          "type": "loot_table",
+          "weight": 3,
+          "name": "ttt:xmas/drop_potion"
+        },
+        {
+          "type": "loot_table",
+          "weight": 2,
+          "name": "ttt:xmas/drop_other"
+        }
+      ]
+    }
+  ]
+}

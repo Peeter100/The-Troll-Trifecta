@@ -1,0 +1,1 @@
+tellraw @s [{"text":"<","color":"#FBFF87"},{"text":"Map Setup","color":"yellow"},{"text":"> "},{"text":"Let me check something...","color":"yellow"}]

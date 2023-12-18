@@ -1,0 +1,2 @@
+tellraw @p[tag=needsgift] {"text":"You summoned an Invisible Creeper!","color":"green"}
+summon creeper ~ ~ ~ {Team:"enemy",PersistenceRequired:0b,Health:10f,Tags:["forkill","xmasmob"],Attributes:[{Name:"generic.max_health",Base:10}]}

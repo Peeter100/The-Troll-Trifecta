@@ -1,0 +1,4 @@
+tellraw @p[tag=needsgift] {"text":"You summoned Dream Lurkers!","color":"green"}
+summon phantom ~ ~ ~ {CustomName:'{"text":"Dream Lurker","color":"red","italic":false}',PersistenceRequired:0b,Health:30f,Tags:["forkill","xmasmob"],Attributes:[{Name:"generic.max_health",Base:30},{Name:"generic.attack_damage",Base:7}]}
+summon phantom ~ ~ ~ {CustomName:'{"text":"Dream Lurker","color":"red","italic":false}',PersistenceRequired:0b,Health:30f,Tags:["forkill","xmasmob"],Attributes:[{Name:"generic.max_health",Base:30},{Name:"generic.attack_damage",Base:7}]}
+summon phantom ~ ~ ~ {CustomName:'{"text":"Dream Lurker","color":"red","italic":false}',PersistenceRequired:0b,Health:30f,Tags:["forkill","xmasmob"],Attributes:[{Name:"generic.max_health",Base:30},{Name:"generic.attack_damage",Base:7}]}

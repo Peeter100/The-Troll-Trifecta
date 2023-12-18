@@ -91,6 +91,11 @@ scoreboard objectives add dialogueseq dummy
 scoreboard objectives add npcbodytp dummy
 scoreboard objectives add knowsbname dummy
 
+scoreboard objectives add ms_seqid dummy
+scoreboard objectives add ms_seqtimer dummy
+scoreboard objectives add ms_seqval dummy
+scoreboard objectives add Map_Setup trigger
+
 scoreboard objectives add st_social dummy
 scoreboard objectives add st_list dummy
 scoreboard objectives add st_scoreboard dummy
@@ -104,6 +109,7 @@ scoreboard objectives add st_fnf_fire dummy
 scoreboard objectives add st_bossdiff dummy
 scoreboard objectives add st_twt dummy
 scoreboard objectives add st_wgun dummy
+scoreboard objectives add st_xmas dummy
 
 scoreboard objectives add d1 dummy
 scoreboard objectives add d2 dummy
@@ -139,6 +145,7 @@ scoreboard objectives add fnf_haswgun dummy
 scoreboard objectives add fnf_tailsstate dummy
 scoreboard objectives add fnf_bulliedtails dummy
 scoreboard objectives add fnf_bulliedsniper dummy
+scoreboard objectives add fnf_wguntutorial dummy
 
 scoreboard objectives add gun_haswater dummy
 scoreboard objectives add wand_energy dummy
@@ -241,6 +248,10 @@ scoreboard objectives add f3_deaths dummy
 scoreboard objectives add f3_deathhintseq dummy
 scoreboard objectives add f3_bosshp dummy
 scoreboard objectives add f3_bosstakenhp dummy
+
+scoreboard objectives add xmas_gifts dummy {"text":"Gifts Opened","color":"green","bold":true}
+scoreboard objectives add xmas_hasblaster dummy
+scoreboard objectives add xmas_hasjolly dummy
 
 
 team add base {"text":"Unselected Team","color":"white"}

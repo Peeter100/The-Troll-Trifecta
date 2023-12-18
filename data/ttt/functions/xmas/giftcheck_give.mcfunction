@@ -1,0 +1,3 @@
+tellraw @s [{"text":"<","color":"white"},{"text":"Santa","color":"red"},{"text":"> "},{"text":"Ran out already? Here you go!","color":"red"}]
+playsound custom.xmas.santa_laugh master @s ~ ~ ~ 1000 2
+give @s ender_eye{display:{Name:'{"text":"Christmas Gift","color":"yellow","italic":false}',Lore:['{"text":"What\'s inside?","color":"gray","italic":false}','{"text":"Only one way to find out!","color":"gray","italic":false}','{"text":" "}','{"text":"Right-click to open.","color":"gray","italic":false}','[{"text":"Has a global ","color":"gray"},{"text":"2s","color":"yellow"},{"text":" cooldown."}]']},CustomModelData:1,gift:1b} 8

@@ -8,7 +8,7 @@ execute if entity @s[scores={acttimer=6}] run tp @a -51 27 108
 execute if entity @s[scores={acttimer=6}] run time set midnight
 
 # skip :))
-execute if entity @s[scores={acttimer=46,cr_beeninbattle=4..}] run function ttt:clash/skip_icebattle
+execute if entity @s[scores={acttimer=46,cr_beeninbattle=3..4}] run function ttt:clash/skip_icebattle
 
 execute if entity @s[scores={acttimer=6..45}] run title @a actionbar {"text":"LOADING..."}
 execute if entity @s[scores={acttimer=46..}] run title @a actionbar [{"text":"Score: ","color":"green"},{"score":{"name":"@s","objective":"cr_score"},"color":"green"}]
@@ -60,7 +60,7 @@ execute as @e[tag=clashmob] at @s if block ~ ~ ~ water run kill @s
 execute as @a[team=p,scores={rc=1..}] at @s run tellraw @s {"text":"No ammo!","color":"red"}
 
 execute if entity @s[scores={acttimer=400}] run stopsound @a master
-execute if entity @s[scores={acttimer=400,cr_beeninbattle=3..}] run scoreboard players set @s acttimer 531
+execute if entity @s[scores={acttimer=400,cr_beeninbattle=2..}] run scoreboard players set @s acttimer 531
 execute if entity @s[scores={acttimer=400}] run tellraw @a [{"text":"<"},{"text":"Sans","color":"#C4E2FF"},{"text":"> "},{"text":"more gobblers are spawning","color":"#C4E2FF","font":"sans"}]
 execute if entity @s[scores={acttimer=400}] as @r[tag=clashplayer] at @s run playsound custom.act2.sans.speech_mid master @a ~ ~ ~ 1000
 

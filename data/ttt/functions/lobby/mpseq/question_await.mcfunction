@@ -1,0 +1,1 @@
+execute if score @s Map_Setup matches 1.. run function ttt:lobby/mpseq/question_answer_parse

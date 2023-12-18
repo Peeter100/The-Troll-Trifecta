@@ -9,4 +9,5 @@ scoreboard players set @s fnf_usedchest 0
 scoreboard players set @s fnf_haswgun 0
 scoreboard players set @s fnf_bulliedtails 0
 scoreboard players set @s fnf_bulliedsniper 0
+scoreboard players set @s fnf_wguntutorial 0
 scoreboard players reset * gun_haswater

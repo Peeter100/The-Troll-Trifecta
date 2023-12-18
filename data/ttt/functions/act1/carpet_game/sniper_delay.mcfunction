@@ -1,0 +1,1 @@
+scoreboard players set @s am_maintimer -41

@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Item:{tag:{giftdrop:1b}}}] at @s run function ttt:xmas/rewards/parse_rewards
