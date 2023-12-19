@@ -1,4 +1,4 @@
-execute if score @s ms_seqtimer matches 60 run function ttt:lobby/mpseq/parse_specific/compatibility/info 
+execute if score @s ms_seqtimer matches 50 run function ttt:lobby/mpseq/parse_specific/compatibility/info 
 execute if score @s ms_seqtimer matches 20 run function ttt:lobby/mpseq/parse_specific/compatibility/try_blocktag
 execute if score @s ms_seqtimer matches 15 run function ttt:lobby/mpseq/parse_specific/compatibility/try_loottable
 execute if score @s ms_seqtimer matches 10 run function ttt:lobby/mpseq/parse_specific/compatibility/try_predicate

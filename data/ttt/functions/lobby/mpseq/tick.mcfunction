@@ -9,5 +9,7 @@ execute if score @s ms_seqid matches 9 run function ttt:lobby/mpseq/parse_specif
 execute if score @s ms_seqid matches 10..11 run function ttt:lobby/mpseq/parse_specific/item_questions/tick2
 execute if score @s ms_seqid matches 14 run function ttt:lobby/mpseq/parse_specific/item_questions/tick2
 
+execute if score @s ms_seqid matches 53..54 run function ttt:lobby/mpseq/parse_specific/compatibility_ingame/tick
+
 execute if score @s ms_seqtimer matches 0 run function ttt:lobby/mpseq/display_question
 execute if score @s ms_seqtimer matches -1 run function ttt:lobby/mpseq/question_await

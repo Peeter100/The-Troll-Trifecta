@@ -5,6 +5,10 @@ execute if score @s ms_seqid matches 10..11 if score @s Map_Setup matches 10 run
 execute if score @s ms_seqid matches 12 if score @s Map_Setup matches 2801 run function ttt:lobby/mpseq/question_answer_success
 execute if score @s ms_seqid matches 13..14 if score @s Map_Setup matches 1 run function ttt:lobby/mpseq/question_answer_success
 
+execute if score @s ms_seqid matches 50 if score @s Map_Setup matches 1 run function ttt:lobby/mpseq/question_answer_success
+execute if score @s ms_seqid matches 51 if score @s Map_Setup matches 2 run function ttt:lobby/mpseq/question_answer_success
+execute if score @s ms_seqid matches 52 if score @s Map_Setup matches 1035 run function ttt:lobby/mpseq/parse_specific/compatibility_ingame/send
+
 execute unless entity @s[tag=parsed_ms] run function ttt:lobby/mpseq/parse_specific/base
 
 clear @s

@@ -8,4 +8,4 @@ execute if entity @s[team=p] if entity @e[type=marker,tag=sv,scores={acttimer=0.
 execute if entity @s[team=!p] run gamemode spectator @s
 execute if entity @s[team=!p] run team join s @s
 
-scoreboard players set @s ms_seqid 50
+scoreboard players set @s[team=p] ms_seqid 50
