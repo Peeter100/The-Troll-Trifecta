@@ -12,15 +12,16 @@ This map features characters and mechanics from a lot of different media, includ
 - Clash of Clans
 and more!
 > [!IMPORTANT]
-> This map requires the use of **Java Edition 1.18.2** and has an estimated playtime of **5-8 hours**.
+> This map requires the use of **Java Edition 1.18.2** and has an estimated playtime of **4-8 hours**.
 > It is recommended for singleplayer, but has full multiplayer support.
 ## Installation
 Unzip the world.zip file from the [Releases category](https://github.com/Peeter100/The-Troll-Trifecta/releases) and put the folder in your ```.minecraft/saves``` directory.
-If the map does not appear, try to see if there are any nested folders.
+If the map does not appear in Minecraft's Singleplayer menu, try to see if there are any nested folders.
 ## Map Features
 - dynamic checkpoint & shortcut systems based on how far you get
 - interactions with video game characters
 - a lot of different mechanics
 - fully playable Among Us and Friday Night Funkin' sections
+- Christmas-themed gamemode featuring even more unfair chaos
 - full detailed walkthrough
 - rage (optional)
