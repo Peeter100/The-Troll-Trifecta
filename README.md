@@ -12,7 +12,7 @@ This map features characters and mechanics from a lot of different media, includ
 - Clash of Clans
 and more!
 > [!IMPORTANT]
-> This map requires the use of **Java Edition 1.18.2** and has an estimated playtime of **4-8 hours**.
+> This map requires the use of **Java Edition 1.18.2** and has an estimated playtime of **5-8 hours**.
 > It is recommended for singleplayer, but has full multiplayer support.
 ## Installation
 Unzip the world.zip file from the [Releases category](https://github.com/Peeter100/The-Troll-Trifecta/releases) and put the folder in your ```.minecraft/saves``` directory.
@@ -22,6 +22,15 @@ If the map does not appear in Minecraft's Singleplayer menu, try to see if there
 - interactions with video game characters
 - a lot of different mechanics
 - fully playable Among Us and Friday Night Funkin' sections
-- Christmas-themed gamemode featuring even more unfair chaos
+- Christmas-themed game mode featuring even more unfair chaos
 - full detailed walkthrough
 - rage (optional)
+# The Christmas Chaos Gamemode
+![Thumbnail of The Troll Trifecta: Christmas Chaos update](/../dev-datapack/xmas-alt.png)
+
+As part of the v1.1 update and to celebrate Christmas of 2023, a small game mode to the map has been added.
+You've been a good boy this year! The ~~Grinch~~ Santa sees your potential and decides to award you with unlimited gifts! There is one catch, however.
+
+_This is still an unfair map._
+
+Will the gifts be good or bad? Only one way to find out. Use your environment to your advantage and open as many presents as you can while completing each of the Acts.
