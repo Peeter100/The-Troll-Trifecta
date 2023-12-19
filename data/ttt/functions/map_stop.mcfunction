@@ -10,6 +10,7 @@ execute as @e[tag=spawnstand] run data merge entity @s {CustomNameVisible:1b}
 #execute as @e[tag=namednpc] run data merge entity @s {CustomNameVisible:0b}
 kill @e[tag=forkill]
 
+setblock -27 40 7 trapped_chest[facing=north] destroy
 function ttt:reset/summon_lobby_entities
 
 setblock 0 33 4 air
